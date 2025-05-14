@@ -1,16 +1,5 @@
 # SNOMED CT Starter Guide : 4. SNOMED CT Basics
 
-  1. [SNOMED CT Starter Guide](index.html)
-  2. [SNOMED CT Starter Guide](SNOMED-CT-Starter-Guide_26837109.html)
-
-
-
-#  SNOMED CT Starter Guide : 4. SNOMED CT Basics 
-
-Created by  David Markwell, last modified by  Anne Randorff Højen on 2024-Feb-29 
-
-# 
-
 This section provides an overview of:
 
   * [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") features
@@ -24,8 +13,6 @@ This section provides an overview of:
   * SNOMED CT characteristics
   * SNOMED CT supporting different languages
   * SNOMED CT products and services
-
-
 
 ## Why is this important?
 
@@ -44,8 +31,6 @@ An awareness of [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/
   * Is mapped to other international standards.
   * Is already used in more than eighty countries.
 
-
-
 When implemented in software applications, [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") can be used to represent clinically relevant information consistently, reliably and comprehensively as an integral part of producing electronic health information.
 
 Implementation requires an understanding of the way that [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") content is represented by [components](https://confluence.ihtsdotools.org/display/DOCGLOSS/component "Glossary link: components") and supported by [reference sets](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set "Glossary link: reference sets") (Refsets).
@@ -56,8 +41,7 @@ While reading the guide, you may find it useful to explore the content of [SNOME
 
   
 
-
-|  ![](images/29952942.png)  
+|  <img src="images/29952942.png" alt="" title="" width="" height="">  
 ---  
   
 ## SNOMED CT Design and Development
@@ -72,12 +56,7 @@ SNOMED CT is a core clinical healthcare terminology that contains [concepts](htt
 
   * [Relationships](https://confluence.ihtsdotools.org/display/DOCGLOSS/Relationship "Glossary link: Relationships") which link each concept to other related [concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concepts").
 
-
-
-
 These [components](https://confluence.ihtsdotools.org/display/DOCGLOSS/component "Glossary link: components") are supplemented by [reference sets](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set "Glossary link: reference sets"), which provide additional flexible features and enable configuration of the terminology to address different requirements.
-
-## 
 
 #### Concepts
 
@@ -93,15 +72,9 @@ These [components](https://confluence.ihtsdotools.org/display/DOCGLOSS/component
 
   * For example, the [concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concepts") |bacterial pneumonia| and |viral pneumonia| both have an |is a| relationship to |infective pneumonia| which has an |is a| relationship to the more general [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") |pneumonia|.
 
-
-
-
 Other types of [relationships](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationships") represent aspects of the meaning of a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept").
 
   * For example, the [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") |viral pneumonia| has a |causative agent| relationship to the [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") |virus| and a |finding site| [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship") to the [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") |lung|.
-
-
-
 
 Every [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship") has a unique numeric [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship") [identifier](https://confluence.ihtsdotools.org/display/DOCGLOSS/identifier "Glossary link: identifier").
 
@@ -115,8 +88,6 @@ Every [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relatio
 
   * Examples of some of the hierarchies include |clinical finding|, |procedure|, |observable entity|, |body structure| and |organism|.
 
-
-
 ### SNOMED CT Characteristics - Comprehensive, Scalable and Flexible
 
 [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") has a broad coverage of health related topics. It can be used to describe a patient's medical history, the details of an orthopedic procedure, the spread of epidemics, and much more. At the same time, the terminology has an unmatched depth, which enables clinicians to record data at the appropriate level of granularity.
@@ -124,8 +95,6 @@ Every [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relatio
 Specific applications tend to focus on a restricted set of [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT"), such as [concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concepts") related to ophthalmology. These [subsets](https://confluence.ihtsdotools.org/display/DOCGLOSS/subset "Glossary link: subsets") can be used to present relevant parts of the terminology, depending on the clinical context and local requirements. This means for example, that a drop down list to select diagnoses in an [electronic health record](https://confluence.ihtsdotools.org/display/DOCGLOSS/electronic+health+record "Glossary link: electronic health record") in a mental health facility can be tailored to that setting. Similarly, [subsets](https://confluence.ihtsdotools.org/display/DOCGLOSS/subset "Glossary link: subsets") can be defined for problem lists for physician specialties or to provide appropriate medication lists for nurses in community care.
 
 When individual jurisdictions have needs beyond those that can be reflected in a global terminology, perhaps due to requirements in local legislation, they can develop local or national [extensions](https://confluence.ihtsdotools.org/display/DOCGLOSS/extension "Glossary link: extensions"). Thus, even though [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") is global in scope, it can be adapted to each country's or areas requirements. [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") maps work to provide explicit links to health related classifications and coding schemes in use around the world, e.g. [statistical classifications](https://confluence.ihtsdotools.org/display/DOCGLOSS/statistical+classification "Glossary link: statistical classifications") such as [ICD-9-CM](https://confluence.ihtsdotools.org/display/DOCGLOSS/ICD-9-CM "Glossary link: ICD-9-CM"), [ICD-10](https://confluence.ihtsdotools.org/display/DOCGLOSS/ICD-10 "Glossary link: ICD-10"), and [ICD-O3](https://confluence.ihtsdotools.org/display/DOCGLOSS/ICD-O3 "Glossary link: ICD-O3"). Maps to or from several national code systems are also available from, or under development, by [Members](https://confluence.ihtsdotools.org/display/DOCGLOSS/Member "Glossary link: Members"). Maps to or from clinical domain specific code systems are also maintained by specialty groups with which [SNOMED International](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+International "Glossary link: SNOMED International") has collaborative agreement. Maps facilitate reuse of [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") based clinical data for other purposes, such as reimbursement or statistical reporting.
-
-## 
 
 ### Supporting Different Languages
 
@@ -159,28 +128,7 @@ When individual jurisdictions have needs beyond those that can be reflected in a
   * Access to services supporting submission of requests for changes or additions to content and documentation.
   * Participation in the global [SNOMED International](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+International "Glossary link: SNOMED International") community through an electronic collaborative space and meeting of special interest groups.
 
-
-
+  
 
   
 
-
-  
-
-
-## Attachments:
-
-![](images/bullet_blue.gif) [worddav7e1a64c5fcc5983f9dd3717afbef567f.png](attachments/26837115/26837116.png) (image/png)   
-![](images/bullet_blue.gif) [SNOMEDOverview](attachments/26837115/29953057) (application/gliffy+json)   
-![](images/bullet_blue.gif) [SNOMEDOverview.png](attachments/26837115/29953058.png) (image/png)   
-![](images/bullet_blue.gif) [SNOMEDOverview](attachments/26837115/33490831) (application/gliffy+json)   
-![](images/bullet_blue.gif) [SNOMEDOverview.png](attachments/26837115/33490832.png) (image/png)   
-![](images/bullet_blue.gif) [SNOMEDOverview](attachments/26837115/180920210) (application/gliffy+json)   
-![](images/bullet_blue.gif) [SNOMEDOverview.png](attachments/26837115/180920211.png) (image/png)   
-![](images/bullet_blue.gif) [SNOMEDOverview](attachments/26837115/29952941) (application/gliffy+json)   
-![](images/bullet_blue.gif) [SNOMEDOverview.png](attachments/26837115/29952942.png) (image/png)   
-
-
-Document generated by Confluence on 2025-May-14, 14:45
-
-[Atlassian](https://www.atlassian.com/)

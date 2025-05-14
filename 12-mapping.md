@@ -1,23 +1,10 @@
 # SNOMED CT Starter Guide : 12. Mapping
 
-  1. [SNOMED CT Starter Guide](index.html)
-  2. [SNOMED CT Starter Guide](SNOMED-CT-Starter-Guide_26837109.html)
-
-
-
-#  SNOMED CT Starter Guide : 12. Mapping 
-
-Created by  David Markwell, last modified by  Ian Spiers on 2023-Apr-21 
-
-# 
-
 This section provides an overview of:
 
   * Mapping approaches
   * How SNOMED CT represents maps
   * Steps in a mapping process
-
-
 
 ## Why is this important?
 
@@ -28,15 +15,14 @@ Organizations planning to implement SNOMED CT based solutions may also be faced 
 As a common global reference terminology, SNOMED CT limits the need for development of "everything to everything" maps between multiple different code systems.
 
 **Problem: Map Everything to Everything**  
-|  |  ![](images/29952973.png)  
+|  |  <img src="images/29952973.png" alt="" title="" width="" height="">  
 ---  
   
 **Solution: Map to a SNOMED Clinical Terms**  
-|  |  ![](images/29952975.png)  
+|  |  <img src="images/29952975.png" alt="" title="" width="" height="">  
 ---  
   
   
-
 
 ## What is this?
 
@@ -49,8 +35,6 @@ There are a number of different types of mapping activities that an organization
   * Other standard code systems to or from SNOMED CT
   * Locally developed code systems to SNOMED CT
   * Locally collected clinical data documented as free text to SNOMED CT
-
-
 
 The completeness of mapping between two code systems depends on the scope, level of detail provided by the two schemes and the precision of mapping required to safely meet the intended mapping use case.
 
@@ -72,8 +56,6 @@ SNOMED CT specifications and content include resources that support mapping to a
     * Automated selection based on rules that test other relevant characteristics in the source data (e.g. age and sex of the subject, presence or absence of co-existing conditions, etc.).
     * A combination of automated processing with manual confirmation or selection where rules are insufficient to make the necessary decisions.
 
-
-
 ### Steps in a Mapping Process
 
 The main steps to be completed and documented when completing a mapping process include:
@@ -83,8 +65,6 @@ The main steps to be completed and documented when completing a mapping process 
   * Develop and review the maps
   * Use the maps
   * Review activity
-
-
 
 #### Evaluating Mapping as a Solution
 
@@ -98,8 +78,6 @@ When approaching the creation of a map, the first step is to understand the data
   * What is the scope of the mapping exercise?
   * What are the expert resource requirements and costs of creating, quality assuring and maintaining the maps?
   * What are the potential risks arising from using the maps?
-
-
 
 #### Produce Mapping Requirements
 
@@ -119,8 +97,6 @@ The process of map development needs to be done in a controlled manner and invol
   * Publication
   * Life cycle management
 
-
-
 Checks and balances should be used at each stage to ensure that the process is technically accurate and any maps created should be checked either using a map verification process or by parallel independent mapping. Once maps are created and published a cycle of testing should be performed to validate that the results obtained through the use of the maps to transform or migrate data meets the defined requirements.
 
 #### Use the Maps
@@ -131,8 +107,6 @@ Having created the maps to or from SNOMED CT, there are various aspects to consi
   * Transforming the original clinical data to meet the messaging specification for sending data to another system.
   * Migrating existing clinical data either because a system is being upgraded to use SNOMED CT or to introduce a new system that uses SNOMED CT.
 
-
-
 Throughout the use of maps, there are fundamental principles and best practices that should be adhered to including:
 
   * Consider all design elements of the system.
@@ -141,8 +115,6 @@ Throughout the use of maps, there are fundamental principles and best practices 
   * Ensure visibility of original text of mapped items (as recorded prior to mapping).
   * Support clinical safety.
 
-
-
 #### Review Activity
 
 As with any process, a post-activity review stage is recommended. This should ensure that:
@@ -150,18 +122,3 @@ As with any process, a post-activity review stage is recommended. This should en
   * Appropriate lessons are learnt and documented and thus can be referred to in any future mapping activity.
   * Issues that can be addressed within the current mapping are appropriately managed. For example, where the maps are being used for transformation then lessons learnt should be fed back into the process to improve the quality of the transformed data. The same is true in a data migration scenario where maps are reapplied subsequent to the initial migration.
 
-
-
-## Attachments:
-
-![](images/bullet_blue.gif) [worddav2b828ac2de82be2680ee30f9e148419d.png](attachments/26837137/26837139.png) (image/png)   
-![](images/bullet_blue.gif) [worddav241f6ec823830ebfcf5e20991d379848.png](attachments/26837137/26837138.png) (image/png)   
-![](images/bullet_blue.gif) [mapWithReferenceTerminology](attachments/26837137/29952974) (application/gliffy+json)   
-![](images/bullet_blue.gif) [mapWithReferenceTerminology.png](attachments/26837137/29952975.png) (image/png)   
-![](images/bullet_blue.gif) [manyToManyMap](attachments/26837137/29952972) (application/gliffy+json)   
-![](images/bullet_blue.gif) [manyToManyMap.png](attachments/26837137/29952973.png) (image/png)   
-
-
-Document generated by Confluence on 2025-May-14, 14:45
-
-[Atlassian](https://www.atlassian.com/)

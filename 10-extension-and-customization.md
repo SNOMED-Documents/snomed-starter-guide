@@ -1,22 +1,9 @@
 # SNOMED CT Starter Guide : 10. Extension and Customization
 
-  1. [SNOMED CT Starter Guide](index.html)
-  2. [SNOMED CT Starter Guide](SNOMED-CT-Starter-Guide_26837109.html)
-
-
-
-#  SNOMED CT Starter Guide : 10. Extension and Customization 
-
-Created by  David Markwell, last modified by  Ian Spiers on 2023-Apr-21 
-
-# 
-
 This section provides an overview of:
 
   * Extension Content
   * Reference Sets
-
-
 
 ## Why is this important?
 
@@ -35,14 +22,10 @@ Extensions are managed by Members or Affiliates who have been issued with a Name
   * Maintaining Concept, Descriptions, Relationships, and Reference Sets that they create.
   * Inactivating these components as appropriate (duplication, ambiguous, outdated, etc.)
 
-
-
 The Concepts, Descriptions, Relationship and Reference Sets that form an Extension use a namespace identifier, which ensures that their SNOMED CT identifier is different from components in:
 
   * SNOMED CT International Release,
   * Other SNOMED CT Extensions
-
-
 
 The namespace identifier is part of the component identifier. Therefore, components are distinguishable not only in the thesaurus, but also when stored in a patient record, query or decision support protocol.
 
@@ -52,16 +35,12 @@ Extensions use the same file structure as the core International Release. This e
   * The same application software can be used to enter, store and process information from different extensions;
   * Reference Sets can be constructed that refer to content from the International Release and a variety of Extensions.
 
-
-
 Software applications should allow the users or user communities to specify the Extensions to be recognized by their systems.
 
 An Extension should only be recognized if:
 
   * It has been supplied by SNOMED International or another organization authorized by SNOMED International to provide such Extensions;
   * The recognizing organization is satisfied with the quality control procedures of the providing organization.
-
-
 
 The fact that an organization is permitted to produce Extensions does not imply a seal of approval of the quality of Extensions that organization produces. Therefore a person or organization that authorizes or installs an Extension does so entirely at their own risk.
 
@@ -80,8 +59,6 @@ Reference sets can be used for many different purposes, including:
   * **Subsets of concepts, description or relationships** are represented as Simple Reference Sets. The only information that a Simple Reference Set provides is that a component is part of this subset. Subsets may be used for a variety of general and specific purposes, some of which are identified in the following examples.
   * **Ordered lists and navigation hierarchies** are represented as Ordered Reference Sets. These offer additional functionality to meet advanced variants of the requirements addressed by component subsets.
 
-
-
 #### General use cases for subsets represented as Simple Reference Sets
 
   * **Excluding content**  
@@ -98,8 +75,6 @@ Reference sets can be used for many different purposes, including:
   * **Managing use of codes in messages and communications**
     * A Simple Reference Set may represent a value set applicable to a particular field in a message.
 
-
-
 #### Specific use cases for subsets represented as Simple Reference Sets
 
   * **National, jurisdictional or organizational requirements**  
@@ -115,9 +90,6 @@ Reference sets can be used for many different purposes, including:
 
     * Different subsets of concepts are relevant at different points in different data entry protocols. Subsets represented as Simple Reference Sets can be used to restrict the available options to match the requirements at particular points in a data entry protocol.  
 
-
-
-
 #### Reference set development
 
 Generic data structures for Reference Sets have been used to create a simple core structure that can be extended to meet a variety of requirements. This has been done rather than developing a complex and inextensible structure that can only be used in a finite and constrained number of ways to enforce editorial policy.
@@ -129,14 +101,8 @@ Creating a new Reference Set requires access to a namespace in order to generate
   3. Create the Descriptor for the Reference Set (by adding members to the Reference Set Descriptor Reference Set).
   4. Add members to the Reference Set.
 
-
-
 Please note that step 2 does not need to be performed if using one of the standard Reference Set types that have been predefined in the international release of SNOMED CT. The Reference Set Attributes for these predefined Reference Set types have already been added to the international release.
 
 It is recommended that for each reference set, there is formal documentation that records (at a minimum) the rules, principles and approach used to determine the members of that reference set.
 
 Reference Sets need to be maintained and the content re-examined when new releases of SNOMED CT are made available. Processes need to be established to address the concepts that have become inactive and the new concepts added in each new release.
-
-Document generated by Confluence on 2025-May-14, 14:45
-
-[Atlassian](https://www.atlassian.com/)

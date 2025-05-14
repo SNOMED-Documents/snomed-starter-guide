@@ -1,22 +1,9 @@
 # SNOMED CT Starter Guide : 7. SNOMED CT Expressions
 
-  1. [SNOMED CT Starter Guide](index.html)
-  2. [SNOMED CT Starter Guide](SNOMED-CT-Starter-Guide_26837109.html)
-
-
-
-#  SNOMED CT Starter Guide : 7. SNOMED CT Expressions 
-
-Created by  David Markwell, last modified by  Ian Spiers on 2023-Apr-20 
-
-# 
-
 This section provides an overview of:
 
   * Precoordinated Expressions
   * Postcoordinated Expressions
-
-
 
 ## Why is this important?
 
@@ -42,9 +29,8 @@ Precoordinated expression representing fracture of tibia
 | Identifier only| 31978002  
 ---|---|---  
 With display term| 31978002 |fracture of tibia|  
-Graphic view of the defining relationships of the concept |fracture of tibia|| ![](images/26837128.png)  
+Graphic view of the defining relationships of the concept |fracture of tibia|| <img src="images/26837128.png" alt="" title="" width="350" height="">  
   
-## 
 
 The second example shown below illustrates the fact that some SNOMED CT concepts provide quite a lot of detailed refinement, some of which might otherwise be captured separately. We will return to this example when considering postcoordination.
 
@@ -57,7 +43,6 @@ The procedure 'laparoscopic emergency appendectomy' has at least three distinct 
   * 425391005 |using access device| = 86174004 |laparoscope|
 
   
----  
   
 ### Postcoordinated Expressions
 
@@ -79,7 +64,6 @@ The fact that the two expressions have the same meaning can be computed because
     * 425391005 |using access device| = 86174004 |laparoscope|
 
   
----  
   
 The example above shows that postcoordination can be applied even when a single concept is available to represent the required meaning. However, the real strength of postcoordination is that it allows a clinical phrase to be represented even when the precise concept is not present in SNOMED CT. In these cases, postcoordinated refinements can be applied to an existing concept to more precisely capture the required meaning.
 
@@ -89,8 +73,6 @@ SNOMED CT does not contain a concept that represents this clinical idea. However
 ---  
   
 Postcoordinated expressions may be created at run-time by selection of individual facets of a concept. For example, to indicate the nature and location of a fracture for a particular bone and, where relevant, whether the bone affected is on the right or left. Some applications allow generation of postcoordinated expression using natural language processing. Alternatively, postcoordinated expression can be selected during user interface design and bound to simple data entry options. In these cases, the user may not be aware that the information is being captured in a postcoordinated form.
-
-## 
 
 #### Representing Postcoordination
 
@@ -121,7 +103,6 @@ There are several valid ways to represent and store postcoordinated expressions.
     * 161615003 |history of surgery| : 363589002 |associated procedure| = **(** 80146002 |appendectomy| : 260870009 |priority| = 25876001| emergency| **)**
 
   
----  
   
 #### Postcoordination and the Concept Model
 
@@ -138,16 +119,13 @@ It must **not** be represented in other ways that conflict with concept model ru
   * 64572001 |_disease_ | : 116676008| associated morphology|=(49755003 |_morphologically abnormal structure_ | : 363698007 |finding site| = 91723000 |_anatomical structure_ | )
 
   
----  
   
-## 
 
 In some cases, postcoordination may be simply a matter of choosing one of the subtypes of a defining attribute value. For example the definition of |total hip replacement| includes the attribute |direct device| with the value |total hip replacement prosthesis|. The subtypes of this value include different types of prosthesis, some of which are shown in the graphical view of the concept definition below. One of these more specific values can be selected to specify the type of prosthesis actually used.
 
   
 
-
-![](images/26837129.png)
+<img src="images/26837129.png" alt="" title="" width="602" height="383">
 
 In the same way clinical situations, such as family history, can be recorded for any disorder and are not limited to a predefined set of conditions.
 
@@ -160,7 +138,6 @@ The definition of |family history of disorder| specifies that the |subject relat
   * 281666001 |family history of disorder| : { 246090004 |associated finding| = 22298006| myocardial infarction|, 408732007 |subject relationship context| = 66839005 |father| }
 
   
----  
   
 ## Consistent Retrieval of Precoordinated and Postcoordinated Expressions
 
@@ -186,11 +163,10 @@ This rule would include postcoordinated representations, such as the following e
   * 68526006 |removal of device from abdomen| : 425391005 |using access device| = 6174004 |laparoscope|
 
   
----  
   
 The following graphics illustrate the ways in which query predicates based on SNOMED CT concept definitions can be used to retrieve data based on different criteria. In each case, the data retrieved includes expressions that either have attributes matching the criteria or refer to a concept with defining relationships that match the query criteria.
 
-|  ![](images/29952965.png)  
+|  <img src="images/29952965.png" alt="" title="" width="" height="">  
 ---  
   
 __Example: Result of retrieving concepts with_  _|__associated morphology_ _|_  _specified as_  _|__benign neoplasm_ _|__
@@ -198,23 +174,7 @@ __Example: Result of retrieving concepts with_  _|__associated morphology_ _|_  
 __  
 __
 
-|  ![](images/29952967.png)  
+|  <img src="images/29952967.png" alt="" title="" width="" height="">  
 ---  
   
 __Example: Result of retrieving concepts with_  _|__finding site_ _|_  _specified as_  _|__kidney_ _|__
-
-## Attachments:
-
-![](images/bullet_blue.gif) [worddav9082b58ade6df71a83cec0db433498c9.png](attachments/26837127/26837128.png) (image/png)   
-![](images/bullet_blue.gif) [worddav52d0491c5ed90806e82428e585426d3d.png](attachments/26837127/26837129.png) (image/png)   
-![](images/bullet_blue.gif) [worddavc49b461cb5b1225ae93c0aef37ed270c.png](attachments/26837127/26837130.png) (image/png)   
-![](images/bullet_blue.gif) [worddav84e5aabb1c062e1bceb938165ebde448.png](attachments/26837127/26837131.png) (image/png)   
-![](images/bullet_blue.gif) [selectiveRetrieval2](attachments/26837127/29952966) (application/gliffy+json)   
-![](images/bullet_blue.gif) [selectiveRetrieval2.png](attachments/26837127/29952967.png) (image/png)   
-![](images/bullet_blue.gif) [selectiveRetrieval](attachments/26837127/29952964) (application/gliffy+json)   
-![](images/bullet_blue.gif) [selectiveRetrieval.png](attachments/26837127/29952965.png) (image/png)   
-
-
-Document generated by Confluence on 2025-May-14, 14:45
-
-[Atlassian](https://www.atlassian.com/)
