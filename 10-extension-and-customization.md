@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 10. Extension and Customization
+# 10. Extension and Customization
 
 This section provides an overview of:
 

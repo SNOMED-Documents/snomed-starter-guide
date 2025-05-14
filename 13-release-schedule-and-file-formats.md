@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 13. Release Schedule and File Formats
+# 13. Release Schedule and File Formats
 
 This section provides an overview of:
 
@@ -47,7 +47,6 @@ The RF2 specification provides a history tracking mechanism within the distribut
 
   
 ** |  <img src="images/29952978.png" alt="" title="" width="" height="">  
----  
 **
 
 **Snapshot Release:** A 'Snapshot' release contains the most recent version of every component released up to the time of the snapshot. The version of each component contained in a snapshot is the most recent version of that component at the release time. The 'Snapshot' release is useful for a simple installation but does not provide a history or retrospective view of the terminology.

@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 11. Translations and Language Preferences
+# 11. Translations and Language Preferences
 
 This section provides an overview of:
 

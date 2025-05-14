@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 7. SNOMED CT Expressions
+# 7. SNOMED CT Expressions
 
 This section provides an overview of:
 
@@ -152,10 +152,17 @@ This rule would include postcoordinated representations, such as the following e
 
 The following graphics illustrate the ways in which query predicates based on SNOMED CT concept definitions can be used to retrieve data based on different criteria. In each case, the data retrieved includes expressions that either have attributes matching the criteria or refer to a concept with defining relationships that match the query criteria.
 
+<<<<<<< HEAD
 \|&#x20;
+=======
+<img src="images/29952965.png" alt="" title="" width="" height="">
+
+__Example: Result of retrieving concepts with_  _|__associated morphology_ _|_  _specified as_  _|__benign neoplasm_ _|__
+>>>>>>> d7e4c20 (Fixed)
 
 <figure><img src="images/29952965.png" alt=""><figcaption></figcaption></figure>
 
+<<<<<<< HEAD
 \__Example: Result of retrieving concepts with_ \_|\__associated morphology_ _|_ _specified as_ \_|_benign neoplasm |_
 
 \|&#x20;
@@ -163,3 +170,8 @@ The following graphics illustrate the ways in which query predicates based on SN
 <figure><img src="images/29952967.png" alt=""><figcaption></figcaption></figure>
 
 \__Example: Result of retrieving concepts with_ \_|\__finding site_ _|_ _specified as_ \_|_kidney |_
+=======
+<img src="images/29952967.png" alt="" title="" width="" height="">
+
+__Example: Result of retrieving concepts with_  _|__finding site_ _|_  _specified as_  _|__kidney_ _|__
+>>>>>>> d7e4c20 (Fixed)

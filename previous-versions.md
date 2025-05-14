@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : Previous Versions
+# Previous Versions
 
 \| [File](display/DOCSTART/Previous+Versions) | [Modified](display/DOCSTART/Previous+Versions)\
 \---|---|---\

@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 4. SNOMED CT Basics
+# 4. SNOMED CT Basics
 
 This section provides an overview of:
 
@@ -39,11 +39,8 @@ Implementation requires an understanding of the way that [SNOMED CT](https://con
 
 While reading the guide, you may find it useful to explore the content of [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT"). You can do this using one of a range of online [browsers](https://confluence.ihtsdotools.org/display/DOCGLOSS/browser "Glossary link: browsers") listed on our web site at <https://www.implementation.snomed.org/browsers>. Note that the listed [browsers](https://confluence.ihtsdotools.org/display/DOCGLOSS/browser "Glossary link: browsers") are not endorsed by [SNOMED International](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+International "Glossary link: SNOMED International") and they should only be used to a get feel for the content and structure of the terminology. It is useful to experiment with several different [browsers](https://confluence.ihtsdotools.org/display/DOCGLOSS/browser "Glossary link: browsers") as they vary in the way they present particular features of the terminology.
 
-  
+<img src="images/29952942.png" alt="" title="" width="" height="">
 
-|  <img src="images/29952942.png" alt="" title="" width="" height="">  
----  
-  
 ## SNOMED CT Design and Development
 
 ### SNOMED CT Components

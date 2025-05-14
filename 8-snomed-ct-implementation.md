@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 8. SNOMED CT Implementation
+# 8. SNOMED CT Implementation
 
 This section provides an overview of: 
 
@@ -22,9 +22,8 @@ SNOMED CT itself is only a part of the solution to addressing the requirements f
 
 SNOMED CT is useful for clinical documentation, as it supports the representation of detailed clinical information, in a way that can be processed automatically. Realization of the capability of SNOMED CT to support clinical information and meaning based retrieval requires careful consideration of the actual setting, in terms of scope of use, record structure, data entry, data retrieval and communication.
 
-|  <img src="images/29952970.png" alt="" title="" width="" height="">  
----  
-  
+<img src="images/29952970.png" alt="" title="" width="" height="">
+
 ### Implementation Examples
 
 #### Clinical Record Applications

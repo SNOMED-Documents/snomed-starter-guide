@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 12. Mapping
+# 12. Mapping
 
 This section provides an overview of:
 
@@ -16,11 +16,9 @@ As a common global reference terminology, SNOMED CT limits the need for developm
 
 **Problem: Map Everything to Everything**  
 |  |  <img src="images/29952973.png" alt="" title="" width="" height="">  
----  
   
 **Solution: Map to a SNOMED Clinical Terms**  
 |  |  <img src="images/29952975.png" alt="" title="" width="" height="">  
----  
   
   
 

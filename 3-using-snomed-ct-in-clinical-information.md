@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 3. Using SNOMED CT in Clinical Information
+# 3. Using SNOMED CT in Clinical Information
 
 This section provides an overview of:
 

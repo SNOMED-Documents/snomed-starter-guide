@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 9. Content Development
+# 9. Content Development
 
 This section provides an overview of:
 

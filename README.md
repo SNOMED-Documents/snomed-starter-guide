@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 1. Introduction
+# 1. Introduction
 
 ## Goals and Objectives
 

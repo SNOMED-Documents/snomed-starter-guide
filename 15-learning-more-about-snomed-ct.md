@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 15. Learning More About SNOMED CT
+# 15. Learning More About SNOMED CT
 
 ## Documentation
 

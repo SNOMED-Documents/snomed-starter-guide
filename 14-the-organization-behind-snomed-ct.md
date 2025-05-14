@@ -1,4 +1,4 @@
-# SNOMED CT Starter Guide : 14. The Organization Behind SNOMED CT
+# 14. The Organization Behind SNOMED CT
 
 This section provides an overview of:
 
