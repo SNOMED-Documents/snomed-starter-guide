@@ -13,7 +13,7 @@ The SNOMED CT logical model provides the fundamental structure of SNOMED CT and 
 
 The SNOMED CT logical model defines the way in which each type of SNOMED CT component and derivative is related and represented. The core component types in SNOMED CT are concepts, descriptions and relationships. The logical model therefore specifies a structured representation of the concepts used to represent clinical meanings, the descriptions used to refer to these, and the relationships between the concepts.
 
-<img src="images/29952944.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952944.png" alt="" title="" style="width: 100%;">
 
 __Logical Model Overview__
 
@@ -35,7 +35,7 @@ Each concept has one synonym which is marked as |preferred| in a given language,
 
 A Definition is a textual description that has been applied to some SNOMED CT concepts that provides additional information about the intended meaning of the concept.
 
-<img src="images/29952957.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952957.png" alt="" title="" style="width: 100%;">
 
 _Example of descriptions for a single concept (US - English)_
 
@@ -43,7 +43,7 @@ _Example of descriptions for a single concept (US - English)_
 
 A relationship represents an association between two concepts. Relationships are used to logically define the meaning of a concept in a way that can be processed by a computer. A third concept, called a relationship type (or attribute), is used to represent the meaning of the association between the source and destination concepts. There are different types of relationships available within SNOMED CT.
 
-<img src="images/29952955.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952955.png" alt="" title="" style="width: 100%;">
 
 Example of  _attribute relationships_
 
@@ -51,7 +51,7 @@ Example of  _attribute relationships_
 
 Subtype relationships are the most widely used type of relationship. Subtype relationships use the |is a| relationship type and are therefore also known as |is a| relationships. Almost all active SNOMED CT concepts are the source of at least one |is a| relationship. The only exception is the root concept |SNOMED CT Concept| which is the most general concept. The |is a| relationship states that the source concept is a subtype of the destination concept. SNOMED CT relationships are directional and the |is a| relationship read in the reverse direction states that the destination concept is a supertype of the source concept.
 
-<img src="images/29952953.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952953.png" alt="" title="" style="width: 100%;">
 
 _Example of_ _|__is a_ _|__relationships_
 
@@ -61,7 +61,7 @@ If two concepts are directly linked by a single |is a| relationship, the source 
 
 Each concept can have |is a| relationships to several other concepts (i.e. a concept may have multiple supertype parent concepts). As a result the SNOMED CT hierarchy is not a simple tree but has a structure that is known as a "polyhierarchy".
 
-<img src="images/29952951.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952951.png" alt="" title="" style="width: 100%;">
 
 _Illustration of SNOMED CT subtype hierarchy and terms used to describe it_
 
@@ -71,7 +71,7 @@ An attribute relationship contributes to the definition of the source concept by
 
 The following example shows the defining relationships of the concept |abscess of heart|. The attribute relationships |associated morphology| and |finding site| are used to associate the source concept |abscess of heart| to respectively the target concepts |abscess|, and |heart structure|.
 
-<img src="images/29952949.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952949.png" alt="" title="" style="width: 100%;">
 
 _Example of defining relationships_
 
@@ -79,7 +79,7 @@ Unlike |is a| relationships, which are used to define all concepts, the applicab
 
 The first example below violates the domain constraint of |causative agent|, as descendants of |body structure| are not in the domain of |causative agent|. The second example below is valid with respect to the domain constraint of |causative agent|, because |disorder| is in the domain of |causative agent|. However, this example violates the range constraint of |causative agent|, as descendants of morphological abnormality are not in the range of |causative agent|.
 
-<img src="images/29952947.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952947.png" alt="" title="" style="width: 100%;">
 
 _Example of erroneous relationships_
 

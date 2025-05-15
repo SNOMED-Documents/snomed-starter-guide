@@ -29,7 +29,7 @@ Precoordinated expression representing fracture of tibia
 | Identifier only| 31978002  
 ---|---|---  
 With display term| 31978002 |fracture of tibia|  
-Graphic view of the defining relationships of the concept |fracture of tibia|| <img src="images/26837128.png" alt="" title="" width="350" height="">  
+Graphic view of the defining relationships of the concept |fracture of tibia|| <img  style="width: 100%;" src="images/26837128.png" alt="" title="" style="width: 100%;">  
   
 
 The second example shown below illustrates the fact that some SNOMED CT concepts provide quite a lot of detailed refinement, some of which might otherwise be captured separately. We will return to this example when considering postcoordination.
@@ -125,7 +125,7 @@ In some cases, postcoordination may be simply a matter of choosing one of the su
 
   
 
-<img src="images/26837129.png" alt="" title="" width="602" height="383">
+<img  style="width: 100%;" src="images/26837129.png" alt="" title="" style="width: 100%;">
 
 In the same way clinical situations, such as family history, can be recorded for any disorder and are not limited to a predefined set of conditions.
 
@@ -166,13 +166,13 @@ This rule would include postcoordinated representations, such as the following e
   
 The following graphics illustrate the ways in which query predicates based on SNOMED CT concept definitions can be used to retrieve data based on different criteria. In each case, the data retrieved includes expressions that either have attributes matching the criteria or refer to a concept with defining relationships that match the query criteria.
 
-<img src="images/29952965.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952965.png" alt="" title="" style="width: 100%;">
 
 __Example: Result of retrieving concepts with_  _|__associated morphology_ _|_  _specified as_  _|__benign neoplasm_ _|__
 
 __  
 __
 
-<img src="images/29952967.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952967.png" alt="" title="" style="width: 100%;">
 
 __Example: Result of retrieving concepts with_  _|__finding site_ _|_  _specified as_  _|__kidney_ _|__

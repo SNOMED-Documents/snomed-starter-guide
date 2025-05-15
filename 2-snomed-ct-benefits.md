@@ -14,7 +14,7 @@ Understanding the benefits of [SNOMED CT](https://confluence.ihtsdotools.org/dis
 
 [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") supports the development of comprehensive high-quality clinical content in health records. It provides a standardized way to represent clinical phrases captured by the clinician and enables automatic interpretation of these. [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") is a clinically validated, semantically rich, controlled vocabulary that facilitates evolutionary growth in expressivity to meet emerging requirements.
 
-<img src="images/29952939.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952939.png" alt="" title="" style="width: 100%;">
 
 ### Electronic Health Records
 

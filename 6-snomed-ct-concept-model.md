@@ -59,7 +59,7 @@ For example:
 
 The range for the attribute |associated morphology| is the concept |morphologically abnormal structure| and its subtype descendants. The range for the attribute |finding site| is |anatomical or acquired body structure| and its subtype descendants in the |body structure| hierarchy.
 
-<img src="images/29952962.png" alt="" title="" width="" height="">
+<img  style="width: 100%;" src="images/29952962.png" alt="" title="" style="width: 100%;">
 
 __Examples of the domain and range specified for the attributes_ _|__finding site_ _|__and_ _|__laterality_ _|__
 
