@@ -1,42 +1,9 @@
-# 1. Introduction
+# SNOMED CT Starter Guide
 
-## Goals and Objectives
+The SNOMED CT Starter Guide is a practical and useful starting point from which anyone with a general interest in healthcare information can begin learning about SNOMED CT.
 
-The vision for the [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") Starter Guide is for it to be a practical and useful starting point from which anyone with a general interest in healthcare information can begin learning about [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT").
+This Starter Guide is particularly relevant to people from various disciplines who are interested in capture, use, retrieval and analysis of clinical information. The guide introduces the role that SNOMED CT can play in enhancing this clinical information life cycle to support more effective delivery of care to patients and populations. This includes people involved with planning and deciding to proceed and resource a SNOMED CT implementation, people involved in reference set development, terminology management, technical implementation and all aspects of deployment and use. It also includes people involved in clinical information retrieval, analyses, decision support and other aspects of knowledge representation.
 
-## Target Audience
+The Starter Guide is designed for anyone who wants to gain an initial understanding of SNOMED CT. While it does not offer in depth knowledge, it does provide an authoritative foundation and an overview of relevant topics with reference to resources that allow further study.
 
-The target audience for this Starter Guide includes people from various disciplines who may be involved at any point in the [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") information management cycle – from initial planning, clinical content definition and implementation through to use of the resulting clinical information. This spans people involved with planning and deciding to proceed and resource a [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") implementation, people involved in reference set development, terminology management, technical implementation and all aspects of deployment and use. It also includes people involved in clinical information retrieval, analyses, decision support and other aspects of knowledge representation. The characteristics common to all members of the target audience are that they have a reason for wanting to understand [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT") and are seeking a high-level initial overview of topics of which they need to be aware. The Starter Guide does not provide in depth knowledge but does provide an informative and authoritative foundation on which to build.
-
-## Topics
-
-The topics covered in this SNOMED CT Starter Guide include:
-
-  * SNOMED CT Benefits
-  * Using SNOMED CT in Clinical Information
-  * SNOMED CT Basics
-  * SNOMED CT Logical Model
-  * [SNOMED CT Concept Model](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+Concept+Model "Glossary link: SNOMED CT Concept Model")
-
-  * [Expressions](https://confluence.ihtsdotools.org/display/DOCGLOSS/Expression "Glossary link: Expressions") SNOMED CT Expressions
-
-  * Content Development
-  * [Extension](https://confluence.ihtsdotools.org/display/DOCGLOSS/Extension "Glossary link: Extension") and Customization
-
-  * [Translation](https://confluence.ihtsdotools.org/display/DOCGLOSS/Translation "Glossary link: Translation") and Language Preferences
-
-  * [Mapping](https://confluence.ihtsdotools.org/display/DOCGLOSS/Mapping "Glossary link: Mapping")
-
-  * Release Schedule and File Formats
-
-  * Implementation
-  * [SNOMED International](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+International "Glossary link: SNOMED International")
-
-  * Learning More
-
-For each topic the questions addressed include:
-
-  * Why is this important?
-  * What is this?
-
-Supporting references are included in the final chapter of the guide.
+{% include "https://app.gitbook.com/s/JkP2A3FYWj9DLyYhKDm2/~/reusable/4FPLZ4Y9yza7Lu15Sgzc/" %}
