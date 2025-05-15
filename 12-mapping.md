@@ -15,10 +15,10 @@ Organizations planning to implement SNOMED CT based solutions may also be faced 
 As a common global reference terminology, SNOMED CT limits the need for development of "everything to everything" maps between multiple different code systems.
 
 **Problem: Map Everything to Everything**  
-|  |  <img  style="width: 100%;" src="images/29952973.png" alt="" title="" style="width: 100%;">  
+|  |  <figure><img src="images/29952973.png" alt="" title=""></figure>  
   
 **Solution: Map to a SNOMED Clinical Terms**  
-|  |  <img  style="width: 100%;" src="images/29952975.png" alt="" title="" style="width: 100%;">  
+|  |  <figure><img src="images/29952975.png" alt="" title=""></figure>  
   
   
 

@@ -35,7 +35,7 @@ Members undertake a range of activities related to their involvement in SNOMED I
 
 An overview of SNOMED International governance and advisory structures are shown in the following figure.
 
-<img  style="width: 100%;" src="images/44106380.jpg" alt="" title="" style="width: 100%;">
+<figure><img src="images/44106380.jpg" alt="" title=""></figure>
 
 ### General Assembly
 

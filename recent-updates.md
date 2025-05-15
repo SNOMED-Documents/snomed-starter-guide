@@ -84,4 +84,4 @@
 
 [Show More](/plugins/recently-updated/changes.action?theme=concise&pageSize=20&startIndex=20&searchToken=1111820&spaceKeys=DOCSTART&contentType=page)
 
-<img  style="width: 100%;" src="images/wait.gif" alt="Please wait" title="" style="width: 100%;">
+<figure><img src="images/wait.gif" alt="Please wait" title=""></figure>
