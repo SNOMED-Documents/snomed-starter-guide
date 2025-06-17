@@ -6,4 +6,4 @@ This Starter Guide is particularly relevant to people from various disciplines w
 
 The Starter Guide is designed for anyone who wants to gain an initial understanding of SNOMED CT. While it does not offer in depth knowledge, it does provide an authoritative foundation and an overview of relevant topics with reference to resources that allow further study.
 
-{% include "https://app.gitbook.com/s/JkP2A3FYWj9DLyYhKDm2/~/reusable/4FPLZ4Y9yza7Lu15Sgzc/" %}
+{% include "https://app.gitbook.com/s/vdInPDnQhewgUCH6BOCp/~/reusable/QyDGt0IlspDfbQBvgb5o/" %}
