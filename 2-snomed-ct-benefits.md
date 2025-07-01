@@ -16,13 +16,13 @@ SNOMED CT supports the development of comprehensive high-quality clinical conten
 
 <figure><img src="images/29952939.png" alt=""><figcaption></figcaption></figure>
 
-## 2.3 Electronic Health Records
+### 2.2.1 Electronic Health Records
 
 SNOMED CT based clinical information benefits individual patients and clinicians as well as populations and it supports evidence based care.
 
 The use of an Electronic Health Record (EHR) improves communication and increases the availability of relevant information. If clinical information is stored in ways that allow meaning-based retrieval, the benefits are greatly increased. The added benefits range from increased opportunities for real time decision support to more accurate retrospective reporting for research and management.
 
-## 2.4 SNOMED CT Enabled Health Records Benefit Individuals
+### 2.2.2 SNOMED CT Enabled Health Records Benefit Individuals
 
 SNOMED CT enabled clinical health records benefit individuals by:
 
@@ -32,7 +32,7 @@ SNOMED CT enabled clinical health records benefit individuals by:
 * Allowing accurate and comprehensive searches that identify patients who require follow-up or changes of treatment based on revised guidelines.
 * Removing language barriers ( SNOMED CT enables multilingual use).
 
-## 2.5 SNOMED CT Enabled Health Records Benefit Populations
+### 2.2.3 SNOMED CT Enabled Health Records Benefit Populations
 
 SNOMED CT enabled clinical health records benefit populations by:
 
@@ -41,7 +41,7 @@ SNOMED CT enabled clinical health records benefit populations by:
 * Enabling the delivery of relevant data to support clinical research and contribute evidence for future improvements in treatment.
 * Enhancing audits of care delivery with options for detailed analysis of clinical records to investigate outliers and exceptions.
 
-## 2.6 SNOMED CT Enabled Health Records Support Evidence-Based Healthcare
+### 2.2.4 SNOMED CT Enabled Health Records Support Evidence-Based Healthcare
 
 SNOMED CT enabled health records inform evidence based health care decisions by:
 
