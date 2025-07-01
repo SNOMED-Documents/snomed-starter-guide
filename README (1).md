@@ -2,7 +2,7 @@
 
 ## 1.1 Goals and Objectives
 
-The vision for the SNOMED CT Starter Guide is for it to be a practical and useful starting point from which anyone with a general interest in healthcare information can begin learning about [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT).
+The vision for the SNOMED CT Starter Guide is for it to be a practical and useful starting point from which anyone with a general interest in healthcare information can begin learning about SNOMED CT.
 
 ## 1.2 Target Audience
 
@@ -16,15 +16,15 @@ The topics covered in this SNOMED CT Starter Guide include:
 * Using SNOMED CT in Clinical Information
 * SNOMED CT Basics
 * SNOMED CT Logical Model
-* [SNOMED CT Concept Model](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+Concept+Model)
-* [Expressions](https://confluence.ihtsdotools.org/display/DOCGLOSS/Expression) SNOMED CT Expressions
+* SNOMED CT Concept Model
+* SNOMED CT Expressions
 * Content Development
-* [Extension](https://confluence.ihtsdotools.org/display/DOCGLOSS/Extension) and Customization
-* [Translation](https://confluence.ihtsdotools.org/display/DOCGLOSS/Translation) and Language Preferences
-* [Mapping](https://confluence.ihtsdotools.org/display/DOCGLOSS/Mapping)
+* Extension and Customization
+* Translation and Language Preferences
+* Mapping
 * Release Schedule and File Formats
 * Implementation
-* [SNOMED International](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+International)
+* SNOMED International
 * Learning More
 
 For each topic the questions addressed include:
