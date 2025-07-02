@@ -46,7 +46,7 @@ The RF2 specification provides a history tracking mechanism within the distribut
 **Delta Release:** A 'Delta' release contains only those component versions created, inactivated or changed since the previous release. The 'Delta' release is much smaller than a 'Full' release and is ideal for updating a 'Full' release of the previous version. Adding a 'Delta' release to the previous version's 'Full' release will update the installation to a 'Full' release of the current Version. Note that a Delta release is not included as part of the International release but Delta release files can be generated. (See <https://github.com/IHTSDO/delta-generator-tool> for details.)
 
   
-** |  <figure><img src="images/29952978.png" alt="" title=""></figure>  
+** |  <figure><img src="../images/29952978.png" alt="" title=""></figure>  
 **
 
 **Snapshot Release:** A 'Snapshot' release contains the most recent version of every component released up to the time of the snapshot. The version of each component contained in a snapshot is the most recent version of that component at the release time. The 'Snapshot' release is useful for a simple installation but does not provide a history or retrospective view of the terminology.

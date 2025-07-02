@@ -22,7 +22,7 @@ SNOMED CT itself is only a part of the solution to addressing the requirements f
 
 SNOMED CT is useful for clinical documentation, as it supports the representation of detailed clinical information, in a way that can be processed automatically. Realization of the capability of SNOMED CT to support clinical information and meaning based retrieval requires careful consideration of the actual setting, in terms of scope of use, record structure, data entry, data retrieval and communication.
 
-<figure><img src="images/29952970.png" alt="" title=""></figure>
+<figure><img src="../images/29952970.png" alt="" title=""></figure>
 
 ### Implementation Examples
 
@@ -59,11 +59,11 @@ Kaiser Permanente has a central terminology service which develops and maintains
 
 Information can be recorded using SNOMED CT concepts and descriptions that are independent of the clinical information system being used and either independent of or tied to the context of use, depending on the user requirements. SNOMED CT is a common clinical terminology covering a wide range of requirements and its use. SNOMED CT allows meaning-based computation to be applied to information in messages sent between systems, and provides a foundation for interoperable interpretation of clinical information.
 
-For example, subtype descendant concepts that may be relevant to prescribing decisions (e.g. |allergy to substance|, |kidney disease|) can be used to trigger alerts and reminders in the recipient system, such as medication allergy alerts and drug level investigation warnings. These preventative health care reminders, enable the quality of care to be improved.
+For example, subtype descendant concepts that may be relevant to prescribing decisions (e.g. |allergic disposition|, |kidney disease|) can be used to trigger alerts and reminders in the recipient system, such as medication allergy alerts and drug level investigation warnings. These preventative health care reminders, enable the quality of care to be improved.
 
 #### _Has it been implemented?_
 
-Yes. In the United States, Kaiser Permanente (KP), The Veterans Health Administration (VHA), and the Department of Defense (DoD) health systems currently interoperate using SNOMED CT. A consortium comprised of Kaiser Permanente, the Mayo Clinic, Intermountain Health Care, Geisinger Health System, and Group Health Cooperative of Puget Sound has announced they will interoperate using SNOMED CT and techniques established by KP, the VHA and DoD.
+Yes. In the United States, Kaiser Permanente (KP), The Veterans Health Administration (VHA), and the Department of Defense (DoD) health systems interoperate using SNOMED CT. A consortium comprised of Kaiser Permanente, the Mayo Clinic, Intermountain Health Care, Geisinger Health System, and Group Health Cooperative of Puget Sound has announced they will interoperate using SNOMED CT and techniques established by KP, the VHA and DoD.
 
 #### Reporting
 

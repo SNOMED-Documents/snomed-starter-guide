@@ -20,14 +20,14 @@ The direct subtypes of the root concept are referred to as 'Top Level Concepts'.
 Below is a list of the Top Level Concepts with a brief description of the content represented in their branch of the hierarchy.
 
   * |**Clinical finding** | represents the result of a clinical observation, assessment or judgment and includes normal and abnormal clinical states (e.g. |asthma|, |headache|, |normal breath sounds|). The |clinical finding| hierarchy includes concepts used to represent diagnoses.
-  * |**Procedure** | represents activities performed in the provision of health care. This includes not only invasive procedures but also administration of medicines, imaging, education, therapies and administrative procedures (e.g. |appendectomy|, |physiotherapy|, |subcutaneous injection|).
+  * |**Procedure** | represents activities performed in the provision of health care. This includes not only invasive procedures but also administration of medicines, imaging, education, therapies and administrative procedures (e.g. |appendectomy|, |physiotherapy|, |injection into subcutaneous tissue|).
   * |**Situation with explicit context** | represents concepts in which the clinical context is specified as part of the definition of the concept itself. These include presence or absence of a condition, whether a clinical finding is current, in the past or relates to someone other than the subject of the record (e.g. |endoscopy arranged|, |past history of myocardial infarction|, |family history of glaucoma|).
   * |**Observable entity** | represents a question or assessment which can produce an answer or result (e.g. |systolic blood pressure|, |color of iris|, |gender|).
   * |**Body structure** | represents normal and abnormal anatomical structures (e.g. |mitral valve structure|, |adenosarcoma|).
-  * |**Organism** | represents organisms of significance in human and animal medicine (e.g. |streptococcus pyogenes|, |beagle|, |texon cattle breed|).
+  * |**Organism** | represents organisms of significance in human medicine (e.g. |streptococcus pyogenes|, |domain Bacteria|, |glossina|).
   * |**Substance** | represents general substances, the chemical constituents of pharmaceutical/biological products, body substances, dietary substances and diagnostic substances (e.g. |methane|, |insulin|, |albumin|).
-  * |**Pharmaceutical****/****biologic product** | represents drug products (e.g. |amoxicillin 250mg capsule|, |paracetamol + codeine tablet|).
-  * |**Specimen** | represents entities that are obtained (usually from the patient) for examination or analysis (e.g. |urine specimen|, |prostate needle biopsy specimen|).
+  * |**Pharmaceutical****/****biologic product** | represents drug products (e.g. |amoxicillin 250mg oral capsule|, |product containing codeine and paracetamol|).
+  * |**Specimen** | represents entities that are obtained (usually from the patient) for examination or analysis (e.g. |urine specimen|, |specimen from prostate obtained by needle biopsy|).
   * |**Special concept** | represents concepts that do not play a part in the formal logic of the concept model of the terminology, but which may be useful for specific use cases (e.g. |navigational concept|, |alternative medicine poisoning|).
   * |**Physical object** | represents natural and man-made physical objects (e.g. |vena cava filter|, |implant device|, |automobile|).
   * |**Physical force** | represents physical forces that can play a role as mechanisms of injury (e.g. |friction|, |radiation|, |alternating current|).
@@ -59,7 +59,7 @@ For example:
 
 The range for the attribute |associated morphology| is the concept |morphologically abnormal structure| and its subtype descendants. The range for the attribute |finding site| is |anatomical or acquired body structure| and its subtype descendants in the |body structure| hierarchy.
 
-<figure><img src="images/29952962.png" alt="" title=""></figure>
+<figure><img src="../images/29952962.png" alt="" title=""></figure>
 
 __Examples of the domain and range specified for the attributes_ _|__finding site_ _|__and_ _|__laterality_ _|__
 
@@ -150,6 +150,6 @@ Below is a list of some of the attributes used to define |procedure| concepts, a
 
 |**Using energy** | describes the energy used to execute an action.
 
-### Attributes Values Used to Define SNOMED CT Concepts
+#### All Attributes Values Used to Define SNOMED CT Concepts
 
 For attribute values or range, please consult the Editorial Guide (refer to section on [Domain Specific Modeling](https://confluence.ihtsdotools.org/display/DOCEG/Domain+Specific+Modeling), then the appropriate Attributes Summary) or the [MRCM Browser](https://browser.ihtsdotools.org/mrcm).

@@ -10,11 +10,13 @@ SNOMED International provides online courses, tutorials and other materials that
 
 ## SNOMED CT Expo
 
-The SNOMED CT Expo is an open event for anyone interested in SNOMED CT and practical applications of the terminology. The event includes invited keynote speakers and several tracks of peer-reviewed presentations about SNOMED CT in general with a focus on implementation experiences and developments that facilitate more effective use of the terminology.
+The [SNOMED CT Expo](https://www.snomed.org/snomedct-expo) is an open event for anyone interested in SNOMED CT and practical applications of the terminology. The event includes invited keynote speakers and several tracks of peer-reviewed presentations about SNOMED CT in general with a focus on implementation experiences and developments that facilitate more effective use of the terminology.
 
 The Expo also includes tutorials and workshops for those seeking greater understanding of SNOMED CT, an exhibition of vendor products that use SNOMED CT and a range of poster presentations on related topics. 
 
 The Expo is the main annual event in the SNOMED International calendar for anyone interested in the use and development of the global healthcare terminology. In addition to the scheduled sessions, it provides an excellent opportunity to network with others with a shared interest in SNOMED CT.
+
+Watch past Expo recordings - <https://www.youtube.com/@snomedct/playlists>
 
 ## Additional resources
 
@@ -28,6 +30,8 @@ Find out more about the organization, members, newsletter and events.|
     * <http://snomed.org/members>
     * <https://www.snomed.org/news>
     * <http://snomed.org/events>
+    * <https://www.snomed.org/our-partnerships>
+    * <https://www.snomed.org/snomed-ct-marketplace>
 
   
 **General information about SNOMED CT  
@@ -38,7 +42,7 @@ Find out more about the organization, members, newsletter and events.|
 
   
 **Documentation Library**   
-Access to detailed documents, including the Technical Implementation Guide, Editorial Guide and FAQs.| 
+Access to a wide range of documents about SNOMED CT.| 
 
   * <http://snomed.org/doc>
 
@@ -56,11 +60,19 @@ Examples of how SNOMED CT is being used around the world.|
   * <https://www.snomed.org/snomed-ct/snomed-in-action>
 
   
-**SNOMED CT Starter Guide**   
-The latest version of this guide.   
-(The guide can also be found in the Documentation Library - see above).| 
+**SNOMED CT Vendor Guide** The Vendor Introduction to SNOMED CT provides an informative practical introduction to SNOMED CT focused primarily on the needs of vendors and developers of EHRs. | 
 
-  * <http://snomed.org/sg>
+  * <http://snomed.org/vendorintro>
+
+  
+**SNOMED CT National Release Center Guide **Provides an introduction to SNOMED International and SNOMED CT for those working in or planning to development a National Release Center.| 
+
+  * <http://snomed.org/nrcg>
+
+  
+**SNOMED CT Implementation Support Portal** A dedicated portal to support SNOMED CT implementations.| 
+
+  * [https://www.implementation.snomed.org](https://www.implementation.snomed.org/)
 
   
 **SNOMED CT E-Learning Server  
