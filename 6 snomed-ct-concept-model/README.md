@@ -1,9 +1,9 @@
-# 6. SNOMED CT Concept Model
+# SNOMED CT Concept Model
 
 This section provides an overview of:
 
-  * Concept Model – Top Level Hierarchies
-  * Concept Model Attributes – Representing Characteristics of a Concept
+* Concept Model – Top Level Hierarchies
+* Concept Model Attributes – Representing Characteristics of a Concept
 
 ## Why is this important?
 
@@ -19,31 +19,31 @@ The direct subtypes of the root concept are referred to as 'Top Level Concepts'.
 
 Below is a list of the Top Level Concepts with a brief description of the content represented in their branch of the hierarchy.
 
-  * |**Clinical finding** | represents the result of a clinical observation, assessment or judgment and includes normal and abnormal clinical states (e.g. |asthma|, |headache|, |normal breath sounds|). The |clinical finding| hierarchy includes concepts used to represent diagnoses.
-  * |**Procedure** | represents activities performed in the provision of health care. This includes not only invasive procedures but also administration of medicines, imaging, education, therapies and administrative procedures (e.g. |appendectomy|, |physiotherapy|, |injection into subcutaneous tissue|).
-  * |**Situation with explicit context** | represents concepts in which the clinical context is specified as part of the definition of the concept itself. These include presence or absence of a condition, whether a clinical finding is current, in the past or relates to someone other than the subject of the record (e.g. |endoscopy arranged|, |past history of myocardial infarction|, |family history of glaucoma|).
-  * |**Observable entity** | represents a question or assessment which can produce an answer or result (e.g. |systolic blood pressure|, |color of iris|, |gender|).
-  * |**Body structure** | represents normal and abnormal anatomical structures (e.g. |mitral valve structure|, |adenosarcoma|).
-  * |**Organism** | represents organisms of significance in human medicine (e.g. |streptococcus pyogenes|, |domain Bacteria|, |glossina|).
-  * |**Substance** | represents general substances, the chemical constituents of pharmaceutical/biological products, body substances, dietary substances and diagnostic substances (e.g. |methane|, |insulin|, |albumin|).
-  * |**Pharmaceutical****/****biologic product** | represents drug products (e.g. |amoxicillin 250mg oral capsule|, |product containing codeine and paracetamol|).
-  * |**Specimen** | represents entities that are obtained (usually from the patient) for examination or analysis (e.g. |urine specimen|, |specimen from prostate obtained by needle biopsy|).
-  * |**Special concept** | represents concepts that do not play a part in the formal logic of the concept model of the terminology, but which may be useful for specific use cases (e.g. |navigational concept|, |alternative medicine poisoning|).
-  * |**Physical object** | represents natural and man-made physical objects (e.g. |vena cava filter|, |implant device|, |automobile|).
-  * |**Physical force** | represents physical forces that can play a role as mechanisms of injury (e.g. |friction|, |radiation|, |alternating current|).
-  * |**Event** | represents occurrences excluding procedures and interventions (e.g. |flood|, |earthquake|).
-  * |**Environments and geographical locations** | represents types of environments as well as named locations such as countries, states and regions (e.g. |intensive care unit|, |academic medical center|, |Denmark|).
-  * |**Social context** | represents social conditions and circumstances significant to health care (e.g. |occupation|, |spiritual or religious belief|).
-  * |**Staging and scales** | represents assessment scales and tumor staging systems (e.g. |Glasgow Coma Scale|, |FIGO staging system of gynecological malignancy|).
-  * |**Qualifier value** | represents the values for some SNOMED CT attributes, where those values are not subtypes of other top level concepts. (e.g. |left|, |abnormal result|, |severe|).
-  * **|****Record artifact** | represents content created for the purpose of providing other people with information about record events or states of affairs. (e.g. |patient held record|, |record entry|, |family history section|).
-  * **|****SNOMED CT Model Component****|** contains technical metadata supporting the SNOMED CT release.
+* |**Clinical finding** | represents the result of a clinical observation, assessment or judgment and includes normal and abnormal clinical states (e.g. |asthma|, |headache|, |normal breath sounds|). The |clinical finding| hierarchy includes concepts used to represent diagnoses.
+* |**Procedure** | represents activities performed in the provision of health care. This includes not only invasive procedures but also administration of medicines, imaging, education, therapies and administrative procedures (e.g. |appendectomy|, |physiotherapy|, |injection into subcutaneous tissue|).
+* |**Situation with explicit context** | represents concepts in which the clinical context is specified as part of the definition of the concept itself. These include presence or absence of a condition, whether a clinical finding is current, in the past or relates to someone other than the subject of the record (e.g. |endoscopy arranged|, |past history of myocardial infarction|, |family history of glaucoma|).
+* |**Observable entity** | represents a question or assessment which can produce an answer or result (e.g. |systolic blood pressure|, |color of iris|, |gender|).
+* |**Body structure** | represents normal and abnormal anatomical structures (e.g. |mitral valve structure|, |adenosarcoma|).
+* |**Organism** | represents organisms of significance in human medicine (e.g. |streptococcus pyogenes|, |domain Bacteria|, |glossina|).
+* |**Substance** | represents general substances, the chemical constituents of pharmaceutical/biological products, body substances, dietary substances and diagnostic substances (e.g. |methane|, |insulin|, |albumin|).
+* |**Pharmaceutical**\*\*/\*\***biologic product** | represents drug products (e.g. |amoxicillin 250mg oral capsule|, |product containing codeine and paracetamol|).
+* |**Specimen** | represents entities that are obtained (usually from the patient) for examination or analysis (e.g. |urine specimen|, |specimen from prostate obtained by needle biopsy|).
+* |**Special concept** | represents concepts that do not play a part in the formal logic of the concept model of the terminology, but which may be useful for specific use cases (e.g. |navigational concept|, |alternative medicine poisoning|).
+* |**Physical object** | represents natural and man-made physical objects (e.g. |vena cava filter|, |implant device|, |automobile|).
+* |**Physical force** | represents physical forces that can play a role as mechanisms of injury (e.g. |friction|, |radiation|, |alternating current|).
+* |**Event** | represents occurrences excluding procedures and interventions (e.g. |flood|, |earthquake|).
+* |**Environments and geographical locations** | represents types of environments as well as named locations such as countries, states and regions (e.g. |intensive care unit|, |academic medical center|, |Denmark|).
+* |**Social context** | represents social conditions and circumstances significant to health care (e.g. |occupation|, |spiritual or religious belief|).
+* |**Staging and scales** | represents assessment scales and tumor staging systems (e.g. |Glasgow Coma Scale|, |FIGO staging system of gynecological malignancy|).
+* |**Qualifier value** | represents the values for some SNOMED CT attributes, where those values are not subtypes of other top level concepts. (e.g. |left|, |abnormal result|, |severe|).
+* |**Record artifact** | represents content created for the purpose of providing other people with information about record events or states of affairs. (e.g. |patient held record|, |record entry|, |family history section|).
+* **|SNOMED CT Model Component|** contains technical metadata supporting the SNOMED CT release.
 
 ### Concept Model Attributes – Representing Characteristics of a Concept
 
 SNOMED CT attributes (or relationship types) are used to represent a characteristic of the meaning of a concept. SNOMED CT currently uses more than one hundred defining attributes when defining the meaning of concepts. Each SNOMED CT attribute can be applied to concepts in one or more branches of the hierarchy. The set of concepts to which an attribute can be applied is called the 'domain' of the attribute. The permitted set of values for each attribute is called the 'range' of the attribute.
 
-#### **_Domain_**
+#### _**Domain**_
 
 The _domain_ is the hierarchy to which a specific attribute can be applied.
 
@@ -59,9 +59,9 @@ For example:
 
 The range for the attribute |associated morphology| is the concept |morphologically abnormal structure| and its subtype descendants. The range for the attribute |finding site| is |anatomical or acquired body structure| and its subtype descendants in the |body structure| hierarchy.
 
-<figure><img src="../images/29952962.png" alt="" title=""></figure>
+<figure><img src="../images/29952962.png" alt=""><figcaption></figcaption></figure>
 
-__Examples of the domain and range specified for the attributes_ _|__finding site_ _|__and_ _|__laterality_ _|__
+_Examples of the domain and range specified for the attributes_ _|finding site|_ _and_ _|laterality|_
 
 Some SNOMED CT attributes (or relationship types) have a hierarchical relationship to one another. The hierarchy formed from such relationships is known as an 'attribute hierarchy'. In an attribute hierarchy, one general attribute is the parent of one or more specific subtypes of that attribute. Subtypes of a concept defined using the more general attribute can be defined using a more specific subtype of that attribute. For example, |after|, |causative agent| and |due to| are subtypes of |associated with|, because they have a more specific meaning.
 
@@ -79,8 +79,8 @@ The Machine Readable Concept Model (MRCM) represents rules in the SNOMED CT conc
 
 The SNOMED CT defining attributes are used to represent the meaning of concepts in many hierarchies, for example:
 
-  * Clinical finding concepts
-  * Procedure concepts
+* Clinical finding concepts
+* Procedure concepts
 
 For further information, please refer to the [SNOMED CT Editorial Guide](http://snomed.org/eg).
 
