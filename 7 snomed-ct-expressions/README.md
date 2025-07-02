@@ -114,7 +114,7 @@ The definition of |family history of disorder| specifies that the |subject relat
 
 * 281666001 |family history of disorder| : {246090004 |associated finding| = 22298006| myocardial infarction|, 408732007 |subject relationship context| = 66839005 |father|}
 
-For further information on Postcoordination see [Practical Guide to Postcoordination](https://confluence.ihtsdotools.org/display/DOCEXPPG/Practical+Guide+to+Postcoordination)
+For further information on Postcoordination see [Practical Guide to Postcoordination](https://snomed.org/postcoordination)
 
 ## Consistent Retrieval of Precoordinated and Postcoordinated Expressions
 
