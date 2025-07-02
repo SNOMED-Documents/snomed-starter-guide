@@ -53,7 +53,7 @@ Subtype relationships are the most widely used type of relationship. Subtype rel
 
 <figure><img src="../images/29952953.png" alt=""><figcaption></figcaption></figure>
 
-_Example of_ /_is a/ relationships_
+_Example of_ _is a relationships_
 
 The |is a| relationships form the hierarchies of SNOMED CT. They are therefore also known as hierarchical relationships. The source concept of the |is a| relationship has a more specific clinical meaning than the target concept. This means that the level of clinical detail of the concepts increases with the depth of the hierarchies.
 
