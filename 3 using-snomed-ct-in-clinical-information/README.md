@@ -1,13 +1,12 @@
-# 3. Using SNOMED CT in Clinical Information
+# Using SNOMED CT in Clinical Information
 
 This section provides an overview of:
 
-  * How SNOMED CT supports reuse of clinical information
-
-  * Extent of practical use
-  * Approaches to implementation
-  * Lessons learnt
-  * Challenges
+* How SNOMED CT supports reuse of clinical information
+* Extent of practical use
+* Approaches to implementation
+* Lessons learnt
+* Challenges
 
 ## Why is this important?
 
@@ -27,9 +26,9 @@ The SNOMED CT concept model also allows additional details to be considered when
 
 Many systems use SNOMED CT to represent some types of clinical information. The extent of use is varied in terms of:
 
-  * The clinical content captured (i.e. what is included and what is not).
-  * How the structure of this content relates to the structures in the records.
-  * The scope and consistency of use and reuse (i.e. within and across national and local organizations, across departments, within proprietary applications or specifically configured instances of proprietary applications).
+* The clinical content captured (i.e. what is included and what is not).
+* How the structure of this content relates to the structures in the records.
+* The scope and consistency of use and reuse (i.e. within and across national and local organizations, across departments, within proprietary applications or specifically configured instances of proprietary applications).
 
 ### Approaches to Implementation
 
@@ -37,30 +36,23 @@ SNOMED CT has been implemented in a variety of ways which differ in the extent t
 
 Key determinants for effective benefits realization include:
 
-  * Representation of stored clinical information.
-    * To enable effective reuse of clinical information, SNOMED CT should be used within a record structure (or information model) that stores similar information consistently and in ways that can be readily queried.
-
-  * Ease of data entry
-    * Different approaches to data entry are valuable and may be mediated in a variety of ways to enable ease of data entry.
-    * The method of data entry should not result in inconsistent representations of the same types of clinical information.
-    * The most effective approaches constrain data entry specific to the clinical context and reason for use.
-    * Unconstrained searches across the entire content of SNOMED CT are rarely appropriate for routine data entry.
-
-    * Constraints that limit data entry to a fixed set of SNOMED CT concepts are useful where the clinical context and reasons for use are narrow.
-
-    * Constraints that alter dynamically to meet requirements of a particular data entry context offer a more generalizable approach that can be configured to meet different requirements.
-    * Natural Language Processing (NLP) to parse and tag text with SNOMED CT expressions has been found useful in some applications.
-
-  * Communication interfaces, including message structures, need to be designed to retain the common elements of clinical content structure and coding. Communication should enable the receiving system to reuse the clinical information effectively based on the SNOMED CT expressions within it.
-
-  * Retrieval, analysis and reuse
-    * Record storage and indexing can be designed to optimize use of the semantic features of SNOMED CT for selective retrieval and to support flexible analytics.
-
-    * Retrieval in the patient care setting should result in the display of clinical records including highlighting of critical information selected taking account of the computer processable expressivity of SNOMED CT.
-
-    * Real time decision support ranges from simple flagging of contraindications to guidelines for investigation and management.
-    * Batch mode decision support identifies patients with chronic diseases and risk factors who require recalls for review and other scheduled interventions.
-    * Analysis of data can be completed for selected populations of patients for a variety of purposes including audit, service planning, epidemiology and clinical research.
+* Representation of stored clinical information.
+  * To enable effective reuse of clinical information, SNOMED CT should be used within a record structure (or information model) that stores similar information consistently and in ways that can be readily queried.
+* Ease of data entry
+  * Different approaches to data entry are valuable and may be mediated in a variety of ways to enable ease of data entry.
+  * The method of data entry should not result in inconsistent representations of the same types of clinical information.
+  * The most effective approaches constrain data entry specific to the clinical context and reason for use.
+  * Unconstrained searches across the entire content of SNOMED CT are rarely appropriate for routine data entry.
+  * Constraints that limit data entry to a fixed set of SNOMED CT concepts are useful where the clinical context and reasons for use are narrow.
+  * Constraints that alter dynamically to meet requirements of a particular data entry context offer a more generalizable approach that can be configured to meet different requirements.
+  * Natural Language Processing (NLP) to parse and tag text with SNOMED CT expressions has been found useful in some applications.
+* Communication interfaces, including message structures, need to be designed to retain the common elements of clinical content structure and coding. Communication should enable the receiving system to reuse the clinical information effectively based on the SNOMED CT expressions within it.
+* Retrieval, analysis and reuse
+  * Record storage and indexing can be designed to optimize use of the semantic features of SNOMED CT for selective retrieval and to support flexible analytics.
+  * Retrieval in the patient care setting should result in the display of clinical records including highlighting of critical information selected taking account of the computer processable expressivity of SNOMED CT.
+  * Real time decision support ranges from simple flagging of contraindications to guidelines for investigation and management.
+  * Batch mode decision support identifies patients with chronic diseases and risk factors who require recalls for review and other scheduled interventions.
+  * Analysis of data can be completed for selected populations of patients for a variety of purposes including audit, service planning, epidemiology and clinical research.
 
 ### Lessons Learnt
 
@@ -74,4 +66,4 @@ Human factors may result in inconsistent recording of similar clinical informati
 
 An important limitation is the diversity of views related to the structure of clinical information and the overlap between information models and terminology. There are also differing views on application design, different requirements for collection of clinical information and different views on record structures and data entry methods appropriate to different use cases.
 
-SNOMED International is working with other standards bodies including the International Organization for Standardisation ( ISO ) and Health Level 7 (HL7), as well as various collaborative efforts exploring the relationship between terminology and structured clinical information. The objective is to ensure that the role of SNOMED CT as a key component of clinical information and systems is understood as part of overall efforts towards harmonization and interoperability.
+SNOMED International is working with other standards bodies including the International Organization for Standardisation (ISO) and Health Level 7 (HL7), as well as various collaborative efforts exploring the relationship between terminology and structured clinical information. The objective is to ensure that the role of SNOMED CT as a key component of clinical information and systems is understood as part of overall efforts towards harmonization and interoperability.
