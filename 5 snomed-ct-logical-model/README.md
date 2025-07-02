@@ -1,9 +1,9 @@
-# 5. SNOMED CT Logical Model
+# SNOMED CT Logical Model
 
 This section provides an overview of:
 
-  * Logical Model Components – representing the core content of the terminology
-  * Reference Sets – configuring and enhancing terminology content
+* Logical Model Components – representing the core content of the terminology
+* Reference Sets – configuring and enhancing terminology content
 
 ## Why is this important?
 
@@ -13,29 +13,29 @@ The SNOMED CT logical model provides the fundamental structure of SNOMED CT and 
 
 The SNOMED CT logical model defines the way in which each type of SNOMED CT component and derivative is related and represented. The core component types in SNOMED CT are concepts, descriptions and relationships. The logical model therefore specifies a structured representation of the concepts used to represent clinical meanings, the descriptions used to refer to these, and the relationships between the concepts.
 
-<figure><img src="../images/29952944.png" alt="" title=""></figure>
+<figure><img src="../images/29952944.png" alt=""><figcaption></figcaption></figure>
 
-__Logical Model Overview__
+**Logical Model Overview**
 
 ### Concepts
 
 Every concept represents a unique clinical meaning, which is referenced using a unique, numeric and machine-readable SNOMED CT identifier. The identifier provides an unambiguous unique reference to each concept and does not have any ascribed human interpretable meaning.
 
-  * Other types of components also have unique identifiers – however, the concept identifier has a specific role as the code used to represent the meaning in clinical records, documents, messages and data.
+* Other types of components also have unique identifiers – however, the concept identifier has a specific role as the code used to represent the meaning in clinical records, documents, messages and data.
 
 ### Descriptions
 
-A set of textual descriptions are assigned to every concept. These provide the human readable form of a concept. Two types of description are used to represent every concept - Fully Specified Name (FSN) and Synonym. Additionally a Definition maybe added on a case-by case basis if required. 
+A set of textual descriptions are assigned to every concept. These provide the human readable form of a concept. Two types of description are used to represent every concept - Fully Specified Name (FSN) and Synonym. Additionally a Definition maybe added on a case-by case basis if required.
 
 The FSN represents a unique, unambiguous description of a concept's meaning. The FSN is not intended to be displayed in clinical records, but is instead used to disambiguate the distinct meaning of each different concept. This is particularly useful when different concepts are referred to by the same commonly used word or phrase. Each concept can have only one FSN in each language or dialect.
 
-A [synonym](https://confluence.ihtsdotools.org/display/DOCGLOSS/synonym "Glossary link: synonym") represents a [term](https://confluence.ihtsdotools.org/display/DOCRELFMT/term+\(field\) "Reference term: term \(field\)") that can be used to display or select a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept"). A concept may have several synonyms. This allows users of SNOMED CT to use the terms they prefer to refer to a specific clinical meaning. Concepts can have multiple synonyms, and the associated terms are not necessarily unique – thus two concepts may have the same synonym term. Interpretation of a synonymous term therefore depends on the concept identifier.
+A synonym represents a term that can be used to display or select a concept. A concept may have several synonyms. This allows users of SNOMED CT to use the terms they prefer to refer to a specific clinical meaning. Concepts can have multiple synonyms, and the associated terms are not necessarily unique – thus two concepts may have the same synonym term. Interpretation of a synonymous term therefore depends on the concept identifier.
 
 Each concept has one synonym which is marked as |preferred| in a given language, dialect, or context of use. This is known as the "preferred term" and is a word or phrase commonly used by clinicians to name that concept. In each language, dialect or context of use, one and only one synonym can be marked as |preferred|. Any number of other synonyms that are valid in a language, dialect or context of use can be marked as |acceptable|.
 
 A Definition is a textual description that has been applied to some SNOMED CT concepts that provides additional information about the intended meaning of the concept.
 
-<figure><img src="../images/29952957.png" alt="" title=""></figure>
+<figure><img src="../images/29952957.png" alt=""><figcaption></figcaption></figure>
 
 _Example of descriptions for a single concept (US - English)_
 
@@ -43,17 +43,17 @@ _Example of descriptions for a single concept (US - English)_
 
 A relationship represents an association between two concepts. Relationships are used to logically define the meaning of a concept in a way that can be processed by a computer. A third concept, called a relationship type (or attribute), is used to represent the meaning of the association between the source and destination concepts. There are different types of relationships available within SNOMED CT.
 
-<figure><img src="../images/29952955.png" alt="" title=""></figure>
+<figure><img src="../images/29952955.png" alt=""><figcaption></figcaption></figure>
 
-Example of  _attribute relationships_
+Example of _attribute relationships_
 
 #### Subtype Relationships
 
 Subtype relationships are the most widely used type of relationship. Subtype relationships use the |is a| relationship type and are therefore also known as |is a| relationships. Almost all active SNOMED CT concepts are the source of at least one |is a| relationship. The only exception is the root concept |SNOMED CT Concept| which is the most general concept. The |is a| relationship states that the source concept is a subtype of the destination concept. SNOMED CT relationships are directional and the |is a| relationship read in the reverse direction states that the destination concept is a supertype of the source concept.
 
-<figure><img src="../images/29952953.png" alt="" title=""></figure>
+<figure><img src="../images/29952953.png" alt=""><figcaption></figcaption></figure>
 
-_Example of_ _|__is a_ _|__relationships_
+_Example of_ \_|\__is a_ \_|\__relationships_
 
 The |is a| relationships form the hierarchies of SNOMED CT. They are therefore also known as hierarchical relationships. The source concept of the |is a| relationship has a more specific clinical meaning than the target concept. This means that the level of clinical detail of the concepts increases with the depth of the hierarchies.
 
@@ -61,7 +61,7 @@ If two concepts are directly linked by a single |is a| relationship, the source 
 
 Each concept can have |is a| relationships to several other concepts (i.e. a concept may have multiple supertype parent concepts). As a result the SNOMED CT hierarchy is not a simple tree but has a structure that is known as a "polyhierarchy".
 
-<figure><img src="../images/29952951.png" alt="" title=""></figure>
+<figure><img src="../images/29952951.png" alt=""><figcaption></figcaption></figure>
 
 _Illustration of SNOMED CT subtype hierarchy and terms used to describe it_
 
@@ -71,7 +71,7 @@ An attribute relationship contributes to the definition of the source concept by
 
 The following example shows the defining relationships of the concept |abscess of heart|. The attribute relationships |associated morphology| and |finding site| are used to associate the source concept |abscess of heart| to respectively the target concepts |abscess|, and |heart structure|.
 
-<figure><img src="../images/29952949.png" alt="" title=""></figure>
+<figure><img src="../images/29952949.png" alt=""><figcaption></figcaption></figure>
 
 _Example of defining relationships_
 
@@ -79,7 +79,7 @@ Unlike |is a| relationships, which are used to define all concepts, the applicab
 
 The first example below violates the domain constraint of |causative agent|, as descendants of |body structure| are not in the domain of |causative agent|. The second example below is valid with respect to the domain constraint of |causative agent|, because |disorder| is in the domain of |causative agent|. However, this example violates the range constraint of |causative agent|, as descendants of morphological abnormality are not in the range of |causative agent|.
 
-<figure><img src="../images/29952947.png" alt="" title=""></figure>
+<figure><img src="../images/29952947.png" alt=""><figcaption></figcaption></figure>
 
 _Example of erroneous relationships_
 
@@ -87,18 +87,17 @@ _Example of erroneous relationships_
 
 In SNOMED CT every concept is specified as either defined or primitive.
 
-A [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") is _defined_ if its [defining characteristics](https://confluence.ihtsdotools.org/display/DOCGLOSS/defining+characteristic "Glossary link: defining characteristics") are sufficient to distinguish its meaning from other similar concepts. One example is that the [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") |acute disease| is _defined_ by its two defining [relationships](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationships"). The first [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship") is |is a| |disease| and the second [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship") is |clinical course| of |sudden onset AND/OR short duration|. Stating that this concept is _defined_ means that any concept that |is a| |disease| and has a |clinical course| of |sudden onset AND/OR short duration| is a subtype of this concept (or the concept itself).
+A concept is _defined_ if its defining characteristics are sufficient to distinguish its meaning from other similar concepts. One example is that the concept |acute disease| is _defined_ by its two defining relationships. The first relationship is |is a| |disease| and the second relationship is |clinical course| of |sudden onset AND/OR short duration|. Stating that this concept is _defined_ means that any concept that |is a| |disease| and has a |clinical course| of |sudden onset AND/OR short duration| is a subtype of this concept (or the concept itself).
 
-A [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") is [primitive](https://confluence.ihtsdotools.org/display/DOCGLOSS/primitive+concept "Glossary link: primitive concept") (not defined) if its [defining characteristics](https://confluence.ihtsdotools.org/display/DOCGLOSS/defining+characteristic "Glossary link: defining characteristics") are not sufficient to uniquely distinguish its meaning from other similar concepts. One example is that the [primitive concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/primitive+concept "Glossary link: primitive concepts") |disease| and |drug action| share the same [defining characteristics](https://confluence.ihtsdotools.org/display/DOCGLOSS/defining+characteristic "Glossary link: defining characteristics"): namely a [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship") of type |is a| to the [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") |clinical finding|. This is despite the fact that the [concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concepts") |disease| and |drug action| represent different clinical ideas.
+A concept is primitive (not defined) if its defining characteristics are not sufficient to uniquely distinguish its meaning from other similar concepts. One example is that the primitive concepts |disease| and |drug action| share the same defining characteristics: namely a relationship of type |is a| to the concept |clinical finding|. This is despite the fact that the concepts |disease| and |drug action| represent different clinical ideas.
 
 ### Reference Sets
 
 Reference Sets (Refsets) are a standard way to represent additional non-defining information about members of a set of components. Reference Sets are important as they can be used in SNOMED CT enabled applications to constrain, configure and enhance functionality to match requirements for different use cases. Some examples of the many uses of reference sets are to represent:
 
-  * **Language and dialect preferences** for use of particular terms to describe a concept. Language Reference Sets allow the preferred and acceptable descriptions to be configured for a language, dialect or context of use.
-  * **Subsets of components that are included in or excluded** from the set of values that can be used in a particular country, organization, specialty or context.
-  * **Value sets of concepts** limiting the permitted content of a field in line with requirements of standard message or communication interface.
-  * **Frequently used descriptions or concepts** that can be prioritized for searches in a particular country, organization, specialty or context.
-  * **Structuring and ordering of lists and hierarchies** to display concepts in convenient structured lists or tree-view controls to assist entry of particular data items.
-  * **Maps to or from****other code systems** the maps supported by Reference Sets includes simple one-to-one maps and more complex maps requiring human-readable advice or machine processable rules to resolve ambiguities.
-
+* **Language and dialect preferences** for use of particular terms to describe a concept. Language Reference Sets allow the preferred and acceptable descriptions to be configured for a language, dialect or context of use.
+* **Subsets of components that are included in or excluded** from the set of values that can be used in a particular country, organization, specialty or context.
+* **Value sets of concepts** limiting the permitted content of a field in line with requirements of standard message or communication interface.
+* **Frequently used descriptions or concepts** that can be prioritized for searches in a particular country, organization, specialty or context.
+* **Structuring and ordering of lists and hierarchies** to display concepts in convenient structured lists or tree-view controls to assist entry of particular data items.
+* **Maps to or from other code systems** the maps supported by Reference Sets includes simple one-to-one maps and more complex maps requiring human-readable advice or machine processable rules to resolve ambiguities.
