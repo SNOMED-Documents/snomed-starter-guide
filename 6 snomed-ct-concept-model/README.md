@@ -19,25 +19,25 @@ The direct subtypes of the root concept are referred to as 'Top Level Concepts'.
 
 Below is a list of the Top Level Concepts with a brief description of the content represented in their branch of the hierarchy.
 
-* |**Clinical finding** | represents the result of a clinical observation, assessment or judgment and includes normal and abnormal clinical states (e.g. |asthma|, |headache|, |normal breath sounds|). The |clinical finding| hierarchy includes concepts used to represent diagnoses.
-* |**Procedure** | represents activities performed in the provision of health care. This includes not only invasive procedures but also administration of medicines, imaging, education, therapies and administrative procedures (e.g. |appendectomy|, |physiotherapy|, |injection into subcutaneous tissue|).
-* |**Situation with explicit context** | represents concepts in which the clinical context is specified as part of the definition of the concept itself. These include presence or absence of a condition, whether a clinical finding is current, in the past or relates to someone other than the subject of the record (e.g. |endoscopy arranged|, |past history of myocardial infarction|, |family history of glaucoma|).
-* |**Observable entity** | represents a question or assessment which can produce an answer or result (e.g. |systolic blood pressure|, |color of iris|, |gender|).
-* |**Body structure** | represents normal and abnormal anatomical structures (e.g. |mitral valve structure|, |adenosarcoma|).
-* |**Organism** | represents organisms of significance in human medicine (e.g. |streptococcus pyogenes|, |domain Bacteria|, |glossina|).
-* |**Substance** | represents general substances, the chemical constituents of pharmaceutical/biological products, body substances, dietary substances and diagnostic substances (e.g. |methane|, |insulin|, |albumin|).
-* |**Pharmaceutical**\*\*/\*\***biologic product** | represents drug products (e.g. |amoxicillin 250mg oral capsule|, |product containing codeine and paracetamol|).
-* |**Specimen** | represents entities that are obtained (usually from the patient) for examination or analysis (e.g. |urine specimen|, |specimen from prostate obtained by needle biopsy|).
-* |**Special concept** | represents concepts that do not play a part in the formal logic of the concept model of the terminology, but which may be useful for specific use cases (e.g. |navigational concept|, |alternative medicine poisoning|).
-* |**Physical object** | represents natural and man-made physical objects (e.g. |vena cava filter|, |implant device|, |automobile|).
-* |**Physical force** | represents physical forces that can play a role as mechanisms of injury (e.g. |friction|, |radiation|, |alternating current|).
-* |**Event** | represents occurrences excluding procedures and interventions (e.g. |flood|, |earthquake|).
-* |**Environments and geographical locations** | represents types of environments as well as named locations such as countries, states and regions (e.g. |intensive care unit|, |academic medical center|, |Denmark|).
-* |**Social context** | represents social conditions and circumstances significant to health care (e.g. |occupation|, |spiritual or religious belief|).
-* |**Staging and scales** | represents assessment scales and tumor staging systems (e.g. |Glasgow Coma Scale|, |FIGO staging system of gynecological malignancy|).
-* |**Qualifier value** | represents the values for some SNOMED CT attributes, where those values are not subtypes of other top level concepts. (e.g. |left|, |abnormal result|, |severe|).
-* |**Record artifact** | represents content created for the purpose of providing other people with information about record events or states of affairs. (e.g. |patient held record|, |record entry|, |family history section|).
-* **|SNOMED CT Model Component|** contains technical metadata supporting the SNOMED CT release.
+* |**Clinical finding**| represents the result of a clinical observation, assessment or judgment and includes normal and abnormal clinical states (e.g. |asthma|, |headache|, |normal breath sounds|). The |clinical finding| hierarchy includes concepts used to represent diagnoses.
+* |**Procedure**| represents activities performed in the provision of health care. This includes not only invasive procedures but also administration of medicines, imaging, education, therapies and administrative procedures (e.g. |appendectomy|, |physiotherapy|, |injection into subcutaneous tissue|).
+* |**Situation with explicit context**| represents concepts in which the clinical context is specified as part of the definition of the concept itself. These include presence or absence of a condition, whether a clinical finding is current, in the past or relates to someone other than the subject of the record (e.g. |endoscopy arranged|, |past history of myocardial infarction|, |family history of glaucoma|).
+* |**Observable entity**| represents a question or assessment which can produce an answer or result (e.g. |systolic blood pressure|, |color of iris|, |gender|).
+* |**Body structure**| represents normal and abnormal anatomical structures (e.g. |mitral valve structure|, |adenosarcoma|).
+* |**Organism**| represents organisms of significance in human medicine (e.g. |streptococcus pyogenes|, |domain Bacteria|, |glossina|).
+* |**Substance**| represents general substances, the chemical constituents of pharmaceutical/biological products, body substances, dietary substances and diagnostic substances (e.g. |methane|, |insulin|, |albumin|).
+* |**Pharmaceutical**/**biologic product**| represents drug products (e.g. |amoxicillin 250mg oral capsule|, |product containing codeine and paracetamol|).
+* |**Specimen**| represents entities that are obtained (usually from the patient) for examination or analysis (e.g. |urine specimen|, |specimen from prostate obtained by needle biopsy|).
+* |**Special concept**| represents concepts that do not play a part in the formal logic of the concept model of the terminology, but which may be useful for specific use cases (e.g. |navigational concept|, |alternative medicine poisoning|).
+* |**Physical object**| represents natural and man-made physical objects (e.g. |vena cava filter|, |implant device|, |automobile|).
+* |**Physical force**| represents physical forces that can play a role as mechanisms of injury (e.g. |friction|, |radiation|, |alternating current|).
+* |**Event**| represents occurrences excluding procedures and interventions (e.g. |flood|, |earthquake|).
+* |**Environments and geographical locations**| represents types of environments as well as named locations such as countries, states and regions (e.g. |intensive care unit|, |academic medical center|, |Denmark|).
+* |**Social context**| represents social conditions and circumstances significant to health care (e.g. |occupation|, |spiritual or religious belief|).
+* |**Staging and scales**| represents assessment scales and tumor staging systems (e.g. |Glasgow Coma Scale|, |FIGO staging system of gynecological malignancy|).
+* |**Qualifier value**| represents the values for some SNOMED CT attributes, where those values are not subtypes of other top level concepts. (e.g. |left|, |abnormal result|, |severe|).
+* |**Record artifact**| represents content created for the purpose of providing other people with information about record events or states of affairs. (e.g. |patient held record|, |record entry|, |family history section|).
+* |**SNOMED CT Model Component**| contains technical metadata supporting the SNOMED CT release.
 
 ### Concept Model Attributes – Representing Characteristics of a Concept
 
@@ -69,11 +69,11 @@ Some SNOMED CT attributes (or relationship types) have a hierarchical relationsh
 
 #### Editorial Guide
 
-SNOMED CT is an evolving terminology, which means that the attributes used to define concepts in specific hierarchies may change over time. Additionally, editorial principles, that are specified to ensure consistent representation of the same type of concepts may also change. When authoring SNOMED CT content, it is therefore important to always refer to the current [SNOMED CT Editorial Guide](https://confluence.ihtsdotools.org/display/DOCEG). The Editorial Guide specifies the attributes that are valid to use within each hierarchy and the valid values that can be assigned to each attribute. It also presents general editorial rules for SNOMED CT content, along with specific guidance on authoring concepts within each hierarchy.
+SNOMED CT is an evolving terminology, which means that the attributes used to define concepts in specific hierarchies may change over time. Additionally, editorial principles, that are specified to ensure consistent representation of the same type of concepts may also change. When authoring SNOMED CT content, it is therefore important to always refer to the current SNOMED CT Editorial Guide. The Editorial Guide specifies the attributes that are valid to use within each hierarchy and the valid values that can be assigned to each attribute. It also presents general editorial rules for SNOMED CT content, along with specific guidance on authoring concepts within each hierarchy.
 
 #### Machine Readable Concept Model
 
-The Machine Readable Concept Model (MRCM) represents rules in the SNOMED CT concept model in a form that can be read by a computer and applied to test that concept definitions and expressions comply with the rules. The MRCM may be used for a variety of purposes, including the authoring and validation of SNOMED CT concepts, expressions, expression constraints and queries, Natural Language Processing and terminology binding to support semantic interoperability. For further information, please visit the guide on the [Machine Readable Concept Model](https://confluence.ihtsdotools.org/display/DOCMRCM) or visit the [MRCM Browser](https://browser.ihtsdotools.org/mrcm).
+The Machine Readable Concept Model (MRCM) represents rules in the SNOMED CT concept model in a form that can be read by a computer and applied to test that concept definitions and expressions comply with the rules. The MRCM may be used for a variety of purposes, including the authoring and validation of SNOMED CT concepts, expressions, expression constraints and queries, Natural Language Processing and terminology binding to support semantic interoperability. For further information, please visit the guide on the Machine Readable Concept Model or visit the MRCM Browser.
 
 ### Attributes Used to Define SNOMED CT Concepts
 
@@ -82,73 +82,73 @@ The SNOMED CT defining attributes are used to represent the meaning of concepts 
 * Clinical finding concepts
 * Procedure concepts
 
-For further information, please refer to the [SNOMED CT Editorial Guide](http://snomed.org/eg).
+For further information, please refer to the SNOMED CT Editorial Guide.
 
 #### Attributes Used to Define Clinical Finding Concepts
 
 Below is a list of some of the attributes used to define |clinical finding| concepts, and a brief description of their meaning:
 
-|**Finding site** | specifies the body site affected by a condition.
+|**Finding site**| specifies the body site affected by a condition.
 
-|**Associated morphology** | specifies the morphologic changes seen at the tissue or cellular level that are characteristic features of a disease.
+|**Associated morphology**| specifies the morphologic changes seen at the tissue or cellular level that are characteristic features of a disease.
 
-|**Associated with** | represents a clinically relevant association between concepts without either asserting or excluding a causal or sequential relationship between the two.
+|**Associated with**| represents a clinically relevant association between concepts without either asserting or excluding a causal or sequential relationship between the two.
 
-|**After** | represents a sequence of events where a clinical finding occurs after another |clinical finding| or |procedure| or |event|.
+|**After**| represents a sequence of events where a clinical finding occurs after another |clinical finding| or |procedure| or |event|.
 
-|**Due to** | relates a |clinical finding| directly to a cause such as another |clinical finding| or a |procedure|.
+|**Due to**| relates a |clinical finding| directly to a cause such as another |clinical finding| or a |procedure|.
 
-|**Causative agent** | identifies the direct causative agent of a disease such as an |organism|, |substance| or |physical force|. (Note: This attribute is not used for vectors, such as mosquitos transmitting malaria).
+|**Causative agent**| identifies the direct causative agent of a disease such as an |organism|, |substance| or |physical force|. (Note: This attribute is not used for vectors, such as mosquitos transmitting malaria).
 
-|**Severity** | used to sub-class a |clinical finding| concept according to its relative severity.
+|**Severity**| used to sub-class a |clinical finding| concept according to its relative severity.
 
-|**Clinical course** | represents both the onset and course of a disease.
+|**Clinical course**| represents both the onset and course of a disease.
 
-|**Episodicity** | represents episodes of care provided by a physician or other care provider, such as a general practitioner. This attribute is not used to represent episodes of disease experienced by the patient.
+|**Episodicity**| represents episodes of care provided by a physician or other care provider, such as a general practitioner. This attribute is not used to represent episodes of disease experienced by the patient.
 
-|**Interprets** | refers to the entity being evaluated or interpreted, when an evaluation, interpretation or judgment is intrinsic to the meaning of a concept.
+|**Interprets**| refers to the entity being evaluated or interpreted, when an evaluation, interpretation or judgment is intrinsic to the meaning of a concept.
 
-|**Has interpretation** | when grouped with the attribute |interprets|, designates the judgment aspect being evaluated or interpreted for a concept. (e.g. presence, absence etc.)
+|**Has interpretation**| when grouped with the attribute |interprets|, designates the judgment aspect being evaluated or interpreted for a concept. (e.g. presence, absence etc.)
 
-|**Pathological process** | provides information about the underlying pathological process of a disorder, i.e. it describes the process that results in the structural or morphologic change.
+|**Pathological process**| provides information about the underlying pathological process of a disorder, i.e. it describes the process that results in the structural or morphologic change.
 
-|**Occurrence** | refers to a specific period of life during which a condition first presents.
+|**Occurrence**| refers to a specific period of life during which a condition first presents.
 
-|**Finding method** | specifies the means by which a clinical finding was determined. This attribute is frequently used in conjunction with |finding informer|.
+|**Finding method**| specifies the means by which a clinical finding was determined. This attribute is frequently used in conjunction with |finding informer|.
 
-|**Finding informer** | specifies the person (by role) or other entity (e.g. a monitoring device) from which the clinical finding information was obtained. This attribute is frequently used in conjunction with |finding method|.
+|**Finding informer**| specifies the person (by role) or other entity (e.g. a monitoring device) from which the clinical finding information was obtained. This attribute is frequently used in conjunction with |finding method|.
 
 #### Attributes Used to Define Procedure Concepts
 
 Below is a list of some of the attributes used to define |procedure| concepts, and a brief description of their meaning:
 
-|**Procedure site** | describes the body site acted on or affected by a procedure.
+|**Procedure site**| describes the body site acted on or affected by a procedure.
 
-|**Procedure morphology** | specifies the morphology or abnormal structure involved in a procedure.
+|**Procedure morphology|** specifies the morphology or abnormal structure involved in a procedure.
 
-|**Method** | represents the action being performed to accomplish the procedure. It does not include the surgical approach, equipment or physical forces.
+|**Method**| represents the action being performed to accomplish the procedure. It does not include the surgical approach, equipment or physical forces.
 
-|**Procedure device** | describes the devices associated with a procedure.
+|**Procedure device**| describes the devices associated with a procedure.
 
-|**Access** | describes the route used to access the site of the procedure.
+|**Access**| describes the route used to access the site of the procedure.
 
-|**Direct substance** | describes the |substance| or |pharmaceutical / biologic product| on which the procedure's method directly acts.
+|**Direct substance**| describes the |substance| or |pharmaceutical / biologic product| on which the procedure's method directly acts.
 
-|**Occurrence** | refers to a specific period of life during which a procedure is undertaken.
+|**Occurrence**| refers to a specific period of life during which a procedure is undertaken.
 
-|**Priority** | refers to the priority assigned to a procedure.
+|**Priority**| refers to the priority assigned to a procedure.
 
-|**Has focus** | specifies the |clinical finding| or |procedure| which is the focus of a procedure.
+|**Has focus**| specifies the |clinical finding| or |procedure| which is the focus of a procedure.
 
-|**Has intent** | specifies the intent of a procedure.
+|**Has intent**| specifies the intent of a procedure.
 
-|**Recipient category** | specifies the type of individual or group upon which the action of the procedure is performed.
+|**Recipient category**| specifies the type of individual or group upon which the action of the procedure is performed.
 
-|**Revision status** | specifies whether a procedure is primary or a revision.
+|**Revision status**| specifies whether a procedure is primary or a revision.
 
-|**Using substance** | describes the substance used to execute the action of a procedure, but it is not the substance on which the procedure's method directly acts.
+|**Using substance**| describes the substance used to execute the action of a procedure, but it is not the substance on which the procedure's method directly acts.
 
-|**Using energy** | describes the energy used to execute an action.
+|**Using energy**| describes the energy used to execute an action.
 
 #### All Attributes Values Used to Define SNOMED CT Concepts
 
