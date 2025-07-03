@@ -35,25 +35,25 @@ Each concept has one synonym which is marked as |preferred| in a given language,
 
 A Definition is a textual description that has been applied to some SNOMED CT concepts that provides additional information about the intended meaning of the concept.
 
-<figure><img src="../images/29952957.png" alt=""><figcaption></figcaption></figure>
-
 _Example of descriptions for a single concept (US - English)_
+
+<figure><img src="../images/29952957.png" alt=""><figcaption></figcaption></figure>
 
 ### Relationships
 
 A relationship represents an association between two concepts. Relationships are used to logically define the meaning of a concept in a way that can be processed by a computer. A third concept, called a relationship type (or attribute), is used to represent the meaning of the association between the source and destination concepts. There are different types of relationships available within SNOMED CT.
 
-<figure><img src="../images/29952955.png" alt=""><figcaption></figcaption></figure>
-
 Example of _attribute relationships_
+
+<figure><img src="../images/29952955.png" alt=""><figcaption></figcaption></figure>
 
 #### Subtype Relationships
 
 Subtype relationships are the most widely used type of relationship. Subtype relationships use the |is a| relationship type and are therefore also known as |is a| relationships. Almost all active SNOMED CT concepts are the source of at least one |is a| relationship. The only exception is the root concept |SNOMED CT Concept| which is the most general concept. The |is a| relationship states that the source concept is a subtype of the destination concept. SNOMED CT relationships are directional and the |is a| relationship read in the reverse direction states that the destination concept is a supertype of the source concept.
 
-<figure><img src="../images/29952953.png" alt=""><figcaption></figcaption></figure>
-
 _Example of_ _is a relationships_
+
+<figure><img src="../images/29952953.png" alt=""><figcaption></figcaption></figure>
 
 The |is a| relationships form the hierarchies of SNOMED CT. They are therefore also known as hierarchical relationships. The source concept of the |is a| relationship has a more specific clinical meaning than the target concept. This means that the level of clinical detail of the concepts increases with the depth of the hierarchies.
 
@@ -61,9 +61,9 @@ If two concepts are directly linked by a single |is a| relationship, the source 
 
 Each concept can have |is a| relationships to several other concepts (i.e. a concept may have multiple supertype parent concepts). As a result the SNOMED CT hierarchy is not a simple tree but has a structure that is known as a "polyhierarchy".
 
-<figure><img src="../images/29952951.png" alt=""><figcaption></figcaption></figure>
-
 _Illustration of SNOMED CT subtype hierarchy and terms used to describe it_
+
+<figure><img src="../images/29952951.png" alt=""><figcaption></figcaption></figure>
 
 #### Attribute Relationships
 
@@ -71,17 +71,17 @@ An attribute relationship contributes to the definition of the source concept by
 
 The following example shows the defining relationships of the concept |abscess of heart|. The attribute relationships |associated morphology| and |finding site| are used to associate the source concept |abscess of heart| to respectively the target concepts |abscess|, and |heart structure|.
 
-<figure><img src="../images/29952949.png" alt=""><figcaption></figcaption></figure>
-
 _Example of defining relationships_
+
+<figure><img src="../images/29952949.png" alt=""><figcaption></figcaption></figure>
 
 Unlike |is a| relationships, which are used to define all concepts, the applicability of each type of attribute relationship is limited to a defined domain and range. The domain refers to the concepts that can serve as source concepts for that type of attribute relationship. The range refers to the concepts that can serve as destinations (values) for those attributes. The domain and range specification ensure consistent definitions that can be used to infer additional semantic relationships to deliver reliable meaning-based retrieval of the composed meanings.
 
 The first example below violates the domain constraint of |causative agent|, as descendants of |body structure| are not in the domain of |causative agent|. The second example below is valid with respect to the domain constraint of |causative agent|, because |disorder| is in the domain of |causative agent|. However, this example violates the range constraint of |causative agent|, as descendants of morphological abnormality are not in the range of |causative agent|.
 
-<figure><img src="../images/29952947.png" alt=""><figcaption></figcaption></figure>
-
 _Example of erroneous relationships_
+
+<figure><img src="../images/29952947.png" alt=""><figcaption></figcaption></figure>
 
 ### Defined and Primitive Concepts
 
