@@ -50,7 +50,7 @@ These components are supplemented by reference sets, which provide additional fl
 
 #### Concepts
 
-SNOMED CT concepts represent clinical thoughts, ranging from |abscess| to |zygote|. Every concept has a unique numeric concept identifier. Within each hierarchy, concepts are organized from the general to the more detailed. This allows detailed clinical data to be recorded and later accessed or aggregated at a more general level.
+SNOMED CT concepts represent clinical thoughts, ranging from <mark style="color:blue;">|</mark>abscess<mark style="color:blue;">|</mark> to <mark style="color:blue;">|</mark>zygote<mark style="color:blue;">|</mark>. Every concept has a unique numeric concept identifier. Within each hierarchy, concepts are organized from the general to the more detailed. This allows detailed clinical data to be recorded and later accessed or aggregated at a more general level.
 
 #### Descriptions
 
