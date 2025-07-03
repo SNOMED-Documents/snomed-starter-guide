@@ -13,9 +13,9 @@ The SNOMED CT logical model provides the fundamental structure of SNOMED CT and 
 
 The SNOMED CT logical model defines the way in which each type of SNOMED CT component and derivative is related and represented. The core component types in SNOMED CT are concepts, descriptions and relationships. The logical model therefore specifies a structured representation of the concepts used to represent clinical meanings, the descriptions used to refer to these, and the relationships between the concepts.
 
-<figure><img src="../images/29952944.png" alt=""><figcaption></figcaption></figure>
-
 **Logical Model Overview**
+
+<figure><img src="../images/29952944.png" alt=""><figcaption></figcaption></figure>
 
 ### Concepts
 
