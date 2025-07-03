@@ -1,18 +1,14 @@
-# 4. SNOMED CT Basics
+# SNOMED CT Basics
 
 This section provides an overview of:
 
-  * SNOMED CT features
-
-  * Exploring SNOMED CT
-
-  * SNOMED CT design and development
-
-  * SNOMED CT components and hierarchies
-
-  * SNOMED CT characteristics
-  * SNOMED CT supporting different languages
-  * SNOMED CT products and services
+* SNOMED CT features
+* Exploring SNOMED CT
+* SNOMED CT design and development
+* SNOMED CT components and hierarchies
+* SNOMED CT characteristics
+* SNOMED CT supporting different languages
+* SNOMED CT products and services
 
 ## Why is this important?
 
@@ -24,12 +20,11 @@ An awareness of SNOMED CT features, components, characteristics and products pro
 
 SNOMED CT:
 
-  * Is the most comprehensive, multilingual clinical healthcare terminology in the world.
-  * Is a resource with comprehensive, scientifically validated clinical content.
-  * Enables consistent, processable representation of clinical content in electronic health records.
-
-  * Is mapped to other international standards.
-  * Is already used in more than eighty countries.
+* Is the most comprehensive, multilingual clinical healthcare terminology in the world.
+* Is a resource with comprehensive, scientifically validated clinical content.
+* Enables consistent, processable representation of clinical content in electronic health records.
+* Is mapped to other international standards.
+* Is already used in more than eighty countries.
 
 When implemented in software applications, SNOMED CT can be used to represent clinically relevant information consistently, reliably and comprehensively as an integral part of producing electronic health information.
 
@@ -37,9 +32,9 @@ Implementation requires an understanding of the way that SNOMED CT content is re
 
 ### Exploring SNOMED CT
 
-While reading the guide, you may find it useful to explore the content of SNOMED CT. You can do this using one of a range of online browsers listed on our web site at <https://www.implementation.snomed.org/browsers>. Note that the listed browsers are not endorsed by SNOMED International and they should only be used to a get feel for the content and structure of the terminology. It is useful to experiment with several different browsers as they vary in the way they present particular features of the terminology.
+While reading the guide, you may find it useful to explore the content of SNOMED CT. You can do this using one of a range of online browsers listed on our web site at [https://www.implementation.snomed.org/browsers](https://www.implementation.snomed.org/browsers). Note that the listed browsers are not endorsed by SNOMED International and they should only be used to a get feel for the content and structure of the terminology. It is useful to experiment with several different browsers as they vary in the way they present particular features of the terminology.
 
-<figure><img src="../images/29952942.png" alt="" title=""></figure>
+<figure><img src="../images/29952942.png" alt=""><figcaption></figcaption></figure>
 
 ## SNOMED CT Design and Development
 
@@ -47,11 +42,9 @@ While reading the guide, you may find it useful to explore the content of SNOMED
 
 SNOMED CT is a core clinical healthcare terminology that contains concepts with unique meanings and formal logic based definitions organized into hierarchies. SNOMED CT content is represented using three types of components:
 
-  * Concepts representing clinical meanings that are organized into hierarchies.
-
-  * Descriptions which link appropriate human readable terms to concepts.
-
-  * Relationships which link each concept to other related concepts.
+* Concepts representing clinical meanings that are organized into hierarchies.
+* Descriptions which link appropriate human readable terms to concepts.
+* Relationships which link each concept to other related concepts.
 
 These components are supplemented by reference sets, which provide additional flexible features and enable configuration of the terminology to address different requirements.
 
@@ -65,13 +58,13 @@ SNOMED CT descriptions link appropriate human readable terms to concepts. A conc
 
 #### Relationships
 
-SNOMED CT relationships link concepts to other concepts whose meaning is related in some way. These relationships provide formal definitions and other properties of the concept. One type of relationship is the |is a| relationship which relates a concept to more general concepts. These |is a| relationships define the hierarchy of SNOMED CT concepts.
+SNOMED CT relationships link concepts to other concepts whose meaning is related in some way. These relationships provide formal definitions and other properties of the concept. One type of relationship is the <mark style="color:blue;">|</mark>is a<mark style="color:blue;">|</mark> relationship which relates a concept to more general concepts. These <mark style="color:blue;">|</mark>is a<mark style="color:blue;">|</mark> relationships define the hierarchy of SNOMED CT concepts.
 
-  * For example, the concepts |bacterial pneumonia| and |viral pneumonia| both have an |is a| relationship to |pneumonia| which has an |is a| relationship to the more general concept |infectious disease of lung|.
+* For example, the concepts <mark style="color:blue;">|</mark>bacterial pneumonia<mark style="color:blue;">|</mark> and <mark style="color:blue;">|</mark>viral pneumonia<mark style="color:blue;">|</mark> both have an <mark style="color:blue;">|</mark>is a<mark style="color:blue;">|</mark> relationship to <mark style="color:blue;">|</mark>pneumonia<mark style="color:blue;">|</mark> which has an <mark style="color:blue;">|</mark>is a<mark style="color:blue;">|</mark> relationship to the more general concept <mark style="color:blue;">|</mark>infectious disease of lung<mark style="color:blue;">|</mark>.
 
 Other types of relationships represent aspects of the meaning of a concept.
 
-  * For example, the concept |viral pneumonia| has a |causative agent| relationship to the concept |virus| and a |finding site| relationship to the concept |structure of parenchyma of lung|.
+* For example, the concept <mark style="color:blue;">|</mark>viral pneumonia<mark style="color:blue;">|</mark> has a <mark style="color:blue;">|</mark>causative agent<mark style="color:blue;">|</mark> relationship to the concept <mark style="color:blue;">|</mark>virus<mark style="color:blue;">|</mark> and a <mark style="color:blue;">|</mark>finding site<mark style="color:blue;">|</mark> relationship to the concept <mark style="color:blue;">|</mark>structure of parenchyma of lung<mark style="color:blue;">|</mark>.
 
 Every relationship has a unique numeric relationship identifier.
 
@@ -83,7 +76,7 @@ Reference sets (Refsets) are a flexible standard approach used by SNOMED CT to s
 
 SNOMED CT concepts are organized in hierarchies. Within a hierarchy concepts range from the more general to the more detailed. Related concepts in the hierarchy are linked using the |is a| relationship.
 
-  * Examples of some of the hierarchies include |clinical finding|, |procedure|, |observable entity|, |body structure| and |organism|.
+* Examples of some of the hierarchies include <mark style="color:blue;">|</mark>clinical finding<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>procedure<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>observable entity<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>body structure<mark style="color:blue;">|</mark> and <mark style="color:blue;">|</mark>organism<mark style="color:blue;">|</mark>.
 
 ### SNOMED CT Characteristics - Comprehensive, Scalable and Flexible
 
@@ -101,31 +94,18 @@ SNOMED CT is a multinational, multilingual terminology. It has a built-in framew
 
 Members and organizations covered by the SNOMED CT Affiliate License have access to a range of products and services, including:
 
-  * SNOMED CT terminology files consisting of:
-    * Concepts
-
-    * Descriptions
-
-    * Relationships
-
-  * Derivative works that help in the uptake and use of SNOMED CT, including Reference Sets that support:
-
-    * Identification of subsets of SNOMED CT content
-
-    * Language or dialect preferences for use of particular descriptions
-
-    * Maps to other code systems and classifications
-    * Other relevant metadata to support use of SNOMED CT components.
-
-  * Guidance for successful use of SNOMED CT including:
-
-    * Implementation guidance
-    * Translation guidance
-    * Editorial guidance for content development
-  * Access to services supporting submission of requests for changes or additions to content and documentation.
-  * Participation in the global SNOMED International community through an electronic collaborative space and meeting of special interest groups.
-
-  
-
-  
-
+* SNOMED CT terminology files consisting of:
+  * Concepts
+  * Descriptions
+  * Relationships
+* Derivative works that help in the uptake and use of SNOMED CT, including Reference Sets that support:
+  * Identification of subsets of SNOMED CT content
+  * Language or dialect preferences for use of particular descriptions
+  * Maps to other code systems and classifications
+  * Other relevant metadata to support use of SNOMED CT components.
+* Guidance for successful use of SNOMED CT including:
+  * Implementation guidance
+  * Translation guidance
+  * Editorial guidance for content development
+* Access to services supporting submission of requests for changes or additions to content and documentation.
+* Participation in the global SNOMED International community through an electronic collaborative space and meeting of special interest groups.
