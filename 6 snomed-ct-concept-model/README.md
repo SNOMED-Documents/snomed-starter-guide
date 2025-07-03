@@ -59,9 +59,9 @@ For example:
 
 The range for the attribute |associated morphology| is the concept |morphologically abnormal structure| and its subtype descendants. The range for the attribute |finding site| is |anatomical or acquired body structure| and its subtype descendants in the |body structure| hierarchy.
 
-<figure><img src="../images/29952962.png" alt=""><figcaption></figcaption></figure>
-
 _Examples of the domain and range specified for the attributes_ _|finding site|_ _and_ _|laterality|_
+
+<figure><img src="../images/29952962.png" alt=""><figcaption></figcaption></figure>
 
 Some SNOMED CT attributes (or relationship types) have a hierarchical relationship to one another. The hierarchy formed from such relationships is known as an 'attribute hierarchy'. In an attribute hierarchy, one general attribute is the parent of one or more specific subtypes of that attribute. Subtypes of a concept defined using the more general attribute can be defined using a more specific subtype of that attribute. For example, |after|, |causative agent| and |due to| are subtypes of |associated with|, because they have a more specific meaning.
 
