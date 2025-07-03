@@ -45,7 +45,7 @@ Expressions that contain two or more concept identifiers are referred to as post
 
 Although SNOMED CT contains the concept <mark style="color:blue;">|</mark>laparoscopic emergency appendectomy<mark style="color:blue;">|</mark>, it is also possible to represent this clinical phrase using the following postcoordinated expression.
 
-* 6025007 <mark style="color:blue;">|</mark>laparoscopic appendectomy<mark style="color:blue;">|</mark> :260870009 <mark style="color:blue;">|</mark>priority<mark style="color:blue;">|</mark> = 25876001 <mark style="color:blue;">|</mark>emergency<mark style="color:blue;">|</mark>
+* 6025007 <mark style="color:blue;">|</mark>laparoscopic appendectomy<mark style="color:blue;">|</mark> : 260870009 <mark style="color:blue;">|</mark>priority<mark style="color:blue;">|</mark> = 25876001 <mark style="color:blue;">|</mark>emergency<mark style="color:blue;">|</mark>
 
 This postcoordinated expression has exactly the same meaning as the precoordinated expression
 
