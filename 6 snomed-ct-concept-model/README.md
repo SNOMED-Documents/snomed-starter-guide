@@ -124,7 +124,7 @@ Below is a list of some of the attributes used to define |procedure| concepts, a
 
 <mark style="color:blue;">|</mark>**Procedure site**<mark style="color:blue;">|</mark> describes the body site acted on or affected by a procedure.
 
-<mark style="color:blue;">|</mark>**Procedure morphology**<mark style="color:blue;">**|**</mark> specifies the morphology or abnormal structure involved in a procedure.
+<mark style="color:blue;">|</mark>**Procedure morphology**<mark style="color:blue;">|</mark> specifies the morphology or abnormal structure involved in a procedure.
 
 <mark style="color:blue;">|</mark>**Method**<mark style="color:blue;">|</mark> represents the action being performed to accomplish the procedure. It does not include the surgical approach, equipment or physical forces.
 
@@ -138,7 +138,7 @@ Below is a list of some of the attributes used to define |procedure| concepts, a
 
 <mark style="color:blue;">|</mark>**Priority**<mark style="color:blue;">|</mark> refers to the priority assigned to a procedure.
 
-<mark style="color:blue;">|</mark>**Has focus**<mark style="color:blue;">|</mark> specifies the |clinical finding| or |procedure| which is the focus of a procedure.
+<mark style="color:blue;">|</mark>**Has focus**<mark style="color:blue;">|</mark> specifies the <mark style="color:blue;">|</mark>clinical finding<mark style="color:blue;">|</mark> or <mark style="color:blue;">|</mark>procedure<mark style="color:blue;">|</mark> which is the focus of a procedure.
 
 <mark style="color:blue;">|</mark>**Has intent**<mark style="color:blue;">|</mark> specifies the intent of a procedure.
 
