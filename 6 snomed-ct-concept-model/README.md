@@ -24,20 +24,20 @@ Below is a list of the Top Level Concepts with a brief description of the conten
 * <mark style="color:blue;">|</mark>**Situation with explicit context**<mark style="color:blue;">|</mark> represents concepts in which the clinical context is specified as part of the definition of the concept itself. These include presence or absence of a condition, whether a clinical finding is current, in the past or relates to someone other than the subject of the record (e.g. <mark style="color:blue;">|</mark>endoscopy arranged<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>past history of myocardial infarction<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>family history of glaucoma<mark style="color:blue;">|</mark>).
 * <mark style="color:blue;">|</mark>**Observable entity**<mark style="color:blue;">|</mark> represents a question or assessment which can produce an answer or result (e.g. <mark style="color:blue;">|</mark>systolic blood pressure<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>color of iris<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>gender<mark style="color:blue;">|</mark>).
 * <mark style="color:blue;">|</mark>**Body structure**<mark style="color:blue;">|</mark> represents normal and abnormal anatomical structures (e.g. <mark style="color:blue;">|</mark>mitral valve structure<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>adenosarcoma<mark style="color:blue;">|</mark>).
-* |**Organism**| represents organisms of significance in human medicine (e.g. |streptococcus pyogenes|, |domain Bacteria|, |glossina|).
-* |**Substance**| represents general substances, the chemical constituents of pharmaceutical/biological products, body substances, dietary substances and diagnostic substances (e.g. |methane|, |insulin|, |albumin|).
-* |**Pharmaceutical**/**biologic product**| represents drug products (e.g. |amoxicillin 250mg oral capsule|, |product containing codeine and paracetamol|).
-* |**Specimen**| represents entities that are obtained (usually from the patient) for examination or analysis (e.g. |urine specimen|, |specimen from prostate obtained by needle biopsy|).
-* |**Special concept**| represents concepts that do not play a part in the formal logic of the concept model of the terminology, but which may be useful for specific use cases (e.g. |navigational concept|, |alternative medicine poisoning|).
-* |**Physical object**| represents natural and man-made physical objects (e.g. |vena cava filter|, |implant device|, |automobile|).
-* |**Physical force**| represents physical forces that can play a role as mechanisms of injury (e.g. |friction|, |radiation|, |alternating current|).
-* |**Event**| represents occurrences excluding procedures and interventions (e.g. |flood|, |earthquake|).
-* |**Environments and geographical locations**| represents types of environments as well as named locations such as countries, states and regions (e.g. |intensive care unit|, |academic medical center|, |Denmark|).
-* |**Social context**| represents social conditions and circumstances significant to health care (e.g. |occupation|, |spiritual or religious belief|).
-* |**Staging and scales**| represents assessment scales and tumor staging systems (e.g. |Glasgow Coma Scale|, |FIGO staging system of gynecological malignancy|).
-* |**Qualifier value**| represents the values for some SNOMED CT attributes, where those values are not subtypes of other top level concepts. (e.g. |left|, |abnormal result|, |severe|).
-* |**Record artifact**| represents content created for the purpose of providing other people with information about record events or states of affairs. (e.g. |patient held record|, |record entry|, |family history section|).
-* |**SNOMED CT Model Component**| contains technical metadata supporting the SNOMED CT release.
+* <mark style="color:blue;">|</mark>**Organism**<mark style="color:blue;">|</mark> represents organisms of significance in human medicine (e.g. <mark style="color:blue;">|</mark>streptococcus pyogenes<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>domain Bacteria<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>glossina<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Substance**<mark style="color:blue;">|</mark> represents general substances, the chemical constituents of pharmaceutical/biological products, body substances, dietary substances and diagnostic substances (e.g. <mark style="color:blue;">|</mark>methane<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>insulin<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>albumin<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Pharmaceutical**/**biologic product**<mark style="color:blue;">|</mark> represents drug products (e.g. <mark style="color:blue;">|</mark>amoxicillin 250mg oral capsule<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>product containing codeine and paracetamol<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Specimen**<mark style="color:blue;">|</mark> represents entities that are obtained (usually from the patient) for examination or analysis (e.g. <mark style="color:blue;">|</mark>urine specimen<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>specimen from prostate obtained by needle biopsy<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Special concept**<mark style="color:blue;">|</mark> represents concepts that do not play a part in the formal logic of the concept model of the terminology, but which may be useful for specific use cases (e.g. <mark style="color:blue;">|</mark>navigational concept<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>alternative medicine poisoning<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Physical object**<mark style="color:blue;">|</mark> represents natural and man-made physical objects (e.g. <mark style="color:blue;">|</mark>vena cava filter<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>implant device<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>automobile<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Physical force**<mark style="color:blue;">|</mark> represents physical forces that can play a role as mechanisms of injury (e.g. <mark style="color:blue;">|</mark>friction<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>radiation<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>alternating current<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Event**<mark style="color:blue;">|</mark> represents occurrences excluding procedures and interventions (e.g. <mark style="color:blue;">|</mark>flood<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>earthquake<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Environments and geographical locations**<mark style="color:blue;">|</mark> represents types of environments as well as named locations such as countries, states and regions (e.g. <mark style="color:blue;">|</mark>intensive care unit<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>academic medical center<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>Denmark<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Social context**<mark style="color:blue;">|</mark> represents social conditions and circumstances significant to health care (e.g. <mark style="color:blue;">|</mark>occupation<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>spiritual or religious belief<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Staging and scales**<mark style="color:blue;">|</mark> represents assessment scales and tumor staging systems (e.g. <mark style="color:blue;">|</mark>Glasgow Coma Scale<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>FIGO staging system of gynecological malignancy<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Qualifier value**<mark style="color:blue;">|</mark> represents the values for some SNOMED CT attributes, where those values are not subtypes of other top level concepts. (e.g. <mark style="color:blue;">|</mark>left<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>abnormal result<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>severe<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**Record artifact**<mark style="color:blue;">|</mark> represents content created for the purpose of providing other people with information about record events or states of affairs. (e.g. <mark style="color:blue;">|</mark>patient held record<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>record entry<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>family history section<mark style="color:blue;">|</mark>).
+* <mark style="color:blue;">|</mark>**SNOMED CT Model Component**<mark style="color:blue;">|</mark> contains technical metadata supporting the SNOMED CT release.
 
 ### Concept Model Attributes – Representing Characteristics of a Concept
 
@@ -49,7 +49,7 @@ The _domain_ is the hierarchy to which a specific attribute can be applied.
 
 For example:
 
-The domain of the attribute |associated morphology| is the |clinical finding| hierarchy. Therefore, a |procedure| cannot have an |associated morphology|. However, a |procedure| can have a |procedure morphology|.
+The domain of the attribute <mark style="color:blue;">|</mark>associated morphology<mark style="color:blue;">|</mark> is the <mark style="color:blue;">|</mark>clinical finding<mark style="color:blue;">|</mark> hierarchy. Therefore, a <mark style="color:blue;">|</mark>procedure<mark style="color:blue;">|</mark> cannot have an <mark style="color:blue;">|</mark>associated morphology<mark style="color:blue;">|</mark>. However, a <mark style="color:blue;">|</mark>procedure<mark style="color:blue;">|</mark> can have a <mark style="color:blue;">|</mark>procedure morphology<mark style="color:blue;">|</mark>.
 
 #### _**Range**_
 
@@ -57,13 +57,13 @@ The _range_ is the set of SNOMED CT concepts or concrete values that are allowed
 
 For example:
 
-The range for the attribute |associated morphology| is the concept |morphologically abnormal structure| and its subtype descendants. The range for the attribute |finding site| is |anatomical or acquired body structure| and its subtype descendants in the |body structure| hierarchy.
+The range for the attribute |associated morphology| is the concept <mark style="color:blue;">|</mark>morphologically abnormal structure<mark style="color:blue;">|</mark> and its subtype descendants. The range for the attribute <mark style="color:blue;">|</mark>finding site<mark style="color:blue;">|</mark> is <mark style="color:blue;">|</mark>anatomical or acquired body structure<mark style="color:blue;">|</mark> and its subtype descendants in the <mark style="color:blue;">|</mark>body structure<mark style="color:blue;">|</mark> hierarchy.
 
-_Examples of the domain and range specified for the attributes_ _|finding site|_ _and_ _|laterality|_
+_Examples of the domain and range specified for the attributes_ _<mark style="color:blue;">|</mark>finding site<mark style="color:blue;">|</mark>_ _and_ _<mark style="color:blue;">|</mark>laterality<mark style="color:blue;">|</mark>_
 
 <figure><img src="../images/29952962.png" alt=""><figcaption></figcaption></figure>
 
-Some SNOMED CT attributes (or relationship types) have a hierarchical relationship to one another. The hierarchy formed from such relationships is known as an 'attribute hierarchy'. In an attribute hierarchy, one general attribute is the parent of one or more specific subtypes of that attribute. Subtypes of a concept defined using the more general attribute can be defined using a more specific subtype of that attribute. For example, |after|, |causative agent| and |due to| are subtypes of |associated with|, because they have a more specific meaning.
+Some SNOMED CT attributes (or relationship types) have a hierarchical relationship to one another. The hierarchy formed from such relationships is known as an 'attribute hierarchy'. In an attribute hierarchy, one general attribute is the parent of one or more specific subtypes of that attribute. Subtypes of a concept defined using the more general attribute can be defined using a more specific subtype of that attribute. For example, <mark style="color:blue;">|</mark>after<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>causative agent<mark style="color:blue;">|</mark> and <mark style="color:blue;">|</mark>due to<mark style="color:blue;">|</mark> are subtypes of <mark style="color:blue;">|</mark>associated with<mark style="color:blue;">|</mark>, because they have a more specific meaning.
 
 ### Concept Model and Editorial Guidance
 
@@ -88,67 +88,67 @@ For further information, please refer to the SNOMED CT Editorial Guide.
 
 Below is a list of some of the attributes used to define |clinical finding| concepts, and a brief description of their meaning:
 
-|**Finding site**| specifies the body site affected by a condition.
+<mark style="color:blue;">|</mark>**Finding site**<mark style="color:blue;">|</mark> specifies the body site affected by a condition.
 
-|**Associated morphology**| specifies the morphologic changes seen at the tissue or cellular level that are characteristic features of a disease.
+<mark style="color:blue;">|</mark>**Associated morphology**<mark style="color:blue;">|</mark> specifies the morphologic changes seen at the tissue or cellular level that are characteristic features of a disease.
 
-|**Associated with**| represents a clinically relevant association between concepts without either asserting or excluding a causal or sequential relationship between the two.
+<mark style="color:blue;">|</mark>**Associated with**<mark style="color:blue;">|</mark> represents a clinically relevant association between concepts without either asserting or excluding a causal or sequential relationship between the two.
 
-|**After**| represents a sequence of events where a clinical finding occurs after another |clinical finding| or |procedure| or |event|.
+<mark style="color:blue;">|</mark>**After**<mark style="color:blue;">|</mark> represents a sequence of events where a clinical finding occurs after another <mark style="color:blue;">|</mark>clinical finding<mark style="color:blue;">|</mark> or <mark style="color:blue;">|</mark>procedure<mark style="color:blue;">|</mark> or <mark style="color:blue;">|</mark>event<mark style="color:blue;">|</mark>.
 
-|**Due to**| relates a |clinical finding| directly to a cause such as another |clinical finding| or a |procedure|.
+<mark style="color:blue;">|</mark>**Due to**<mark style="color:blue;">|</mark> relates a <mark style="color:blue;">|</mark>clinical finding<mark style="color:blue;">|</mark> directly to a cause such as another <mark style="color:blue;">|</mark>clinical finding<mark style="color:blue;">|</mark> or a <mark style="color:blue;">|</mark>procedure<mark style="color:blue;">|</mark>.
 
-|**Causative agent**| identifies the direct causative agent of a disease such as an |organism|, |substance| or |physical force|. (Note: This attribute is not used for vectors, such as mosquitos transmitting malaria).
+<mark style="color:blue;">|</mark>**Causative agent**<mark style="color:blue;">|</mark> identifies the direct causative agent of a disease such as an <mark style="color:blue;">|</mark>organism<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>substance<mark style="color:blue;">|</mark> or <mark style="color:blue;">|</mark>physical force<mark style="color:blue;">|</mark>. (Note: This attribute is not used for vectors, such as mosquitos transmitting malaria).
 
-|**Severity**| used to sub-class a |clinical finding| concept according to its relative severity.
+<mark style="color:blue;">|</mark>**Severity**<mark style="color:blue;">|</mark> used to sub-class a |clinical finding| concept according to its relative severity.
 
-|**Clinical course**| represents both the onset and course of a disease.
+<mark style="color:blue;">|</mark>**Clinical course**<mark style="color:blue;">|</mark> represents both the onset and course of a disease.
 
-|**Episodicity**| represents episodes of care provided by a physician or other care provider, such as a general practitioner. This attribute is not used to represent episodes of disease experienced by the patient.
+<mark style="color:blue;">|</mark>**Episodicity**<mark style="color:blue;">|</mark> represents episodes of care provided by a physician or other care provider, such as a general practitioner. This attribute is not used to represent episodes of disease experienced by the patient.
 
-|**Interprets**| refers to the entity being evaluated or interpreted, when an evaluation, interpretation or judgment is intrinsic to the meaning of a concept.
+<mark style="color:blue;">|</mark>**Interprets**<mark style="color:blue;">|</mark> refers to the entity being evaluated or interpreted, when an evaluation, interpretation or judgment is intrinsic to the meaning of a concept.
 
-|**Has interpretation**| when grouped with the attribute |interprets|, designates the judgment aspect being evaluated or interpreted for a concept. (e.g. presence, absence etc.)
+<mark style="color:blue;">|</mark>**Has interpretation**<mark style="color:blue;">|</mark> when grouped with the attribute <mark style="color:blue;">|</mark>interprets<mark style="color:blue;">|</mark>, designates the judgment aspect being evaluated or interpreted for a concept. (e.g. presence, absence etc.)
 
-|**Pathological process**| provides information about the underlying pathological process of a disorder, i.e. it describes the process that results in the structural or morphologic change.
+<mark style="color:blue;">|</mark>**Pathological process**<mark style="color:blue;">|</mark> provides information about the underlying pathological process of a disorder, i.e. it describes the process that results in the structural or morphologic change.
 
-|**Occurrence**| refers to a specific period of life during which a condition first presents.
+<mark style="color:blue;">|</mark>**Occurrence**<mark style="color:blue;">|</mark> refers to a specific period of life during which a condition first presents.
 
-|**Finding method**| specifies the means by which a clinical finding was determined. This attribute is frequently used in conjunction with |finding informer|.
+<mark style="color:blue;">|</mark>**Finding method**<mark style="color:blue;">|</mark> specifies the means by which a clinical finding was determined. This attribute is frequently used in conjunction with |finding informer|.
 
-|**Finding informer**| specifies the person (by role) or other entity (e.g. a monitoring device) from which the clinical finding information was obtained. This attribute is frequently used in conjunction with |finding method|.
+<mark style="color:blue;">|</mark>**Finding informer**<mark style="color:blue;">|</mark> specifies the person (by role) or other entity (e.g. a monitoring device) from which the clinical finding information was obtained. This attribute is frequently used in conjunction with <mark style="color:blue;">|</mark>finding method<mark style="color:blue;">|</mark>.
 
 #### Attributes Used to Define Procedure Concepts
 
 Below is a list of some of the attributes used to define |procedure| concepts, and a brief description of their meaning:
 
-|**Procedure site**| describes the body site acted on or affected by a procedure.
+<mark style="color:blue;">|</mark>**Procedure site**<mark style="color:blue;">|</mark> describes the body site acted on or affected by a procedure.
 
-|**Procedure morphology|** specifies the morphology or abnormal structure involved in a procedure.
+<mark style="color:blue;">|</mark>**Procedure morphology**<mark style="color:blue;">**|**</mark> specifies the morphology or abnormal structure involved in a procedure.
 
-|**Method**| represents the action being performed to accomplish the procedure. It does not include the surgical approach, equipment or physical forces.
+<mark style="color:blue;">|</mark>**Method**<mark style="color:blue;">|</mark> represents the action being performed to accomplish the procedure. It does not include the surgical approach, equipment or physical forces.
 
-|**Procedure device**| describes the devices associated with a procedure.
+<mark style="color:blue;">|</mark>**Procedure device**<mark style="color:blue;">|</mark> describes the devices associated with a procedure.
 
-|**Access**| describes the route used to access the site of the procedure.
+<mark style="color:blue;">|</mark>**Access**<mark style="color:blue;">|</mark> describes the route used to access the site of the procedure.
 
-|**Direct substance**| describes the |substance| or |pharmaceutical / biologic product| on which the procedure's method directly acts.
+<mark style="color:blue;">|</mark>**Direct substance**<mark style="color:blue;">|</mark> describes the <mark style="color:blue;">|</mark>substance<mark style="color:blue;">|</mark> or <mark style="color:blue;">|</mark>pharmaceutical / biologic product<mark style="color:blue;">|</mark> on which the procedure's method directly acts.
 
-|**Occurrence**| refers to a specific period of life during which a procedure is undertaken.
+<mark style="color:blue;">|</mark>**Occurrence**<mark style="color:blue;">|</mark> refers to a specific period of life during which a procedure is undertaken.
 
-|**Priority**| refers to the priority assigned to a procedure.
+<mark style="color:blue;">|</mark>**Priority**<mark style="color:blue;">|</mark> refers to the priority assigned to a procedure.
 
-|**Has focus**| specifies the |clinical finding| or |procedure| which is the focus of a procedure.
+<mark style="color:blue;">|</mark>**Has focus**<mark style="color:blue;">|</mark> specifies the |clinical finding| or |procedure| which is the focus of a procedure.
 
-|**Has intent**| specifies the intent of a procedure.
+<mark style="color:blue;">|</mark>**Has intent**<mark style="color:blue;">|</mark> specifies the intent of a procedure.
 
-|**Recipient category**| specifies the type of individual or group upon which the action of the procedure is performed.
+<mark style="color:blue;">|</mark>**Recipient category**<mark style="color:blue;">|</mark> specifies the type of individual or group upon which the action of the procedure is performed.
 
-|**Revision status**| specifies whether a procedure is primary or a revision.
+<mark style="color:blue;">|</mark>**Revision status**<mark style="color:blue;">|</mark> specifies whether a procedure is primary or a revision.
 
-|**Using substance**| describes the substance used to execute the action of a procedure, but it is not the substance on which the procedure's method directly acts.
+<mark style="color:blue;">|</mark>**Using substance**<mark style="color:blue;">|</mark> describes the substance used to execute the action of a procedure, but it is not the substance on which the procedure's method directly acts.
 
-|**Using energy**| describes the energy used to execute an action.
+<mark style="color:blue;">|</mark>**Using energy**<mark style="color:blue;">|</mark> describes the energy used to execute an action.
 
 #### All Attributes Values Used to Define SNOMED CT Concepts
 
