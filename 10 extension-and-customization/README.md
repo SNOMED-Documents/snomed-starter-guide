@@ -87,7 +87,7 @@ Reference sets can be used for many different purposes, including:
 
 Generic data structures for Reference Sets have been used to create a simple core structure that can be extended to meet a variety of requirements. This has been done rather than developing a complex and inextensible structure that can only be used in a finite and constrained number of ways to enforce editorial policy.
 
-Creating a new Reference Set requires access to a namespace in order to generate SNOMED CT Ids. Within that namespace, at least one module ID concept (with an FSN and Preferred Term) should be added under the |module| sub-hierarchy (within the Core Metadata) for each of the authoring organizations. The steps required to create a new reference set include:
+Creating a new Reference Set requires access to a namespace in order to generate SNOMED CT Ids. Within that namespace, at least one module ID concept (with an FSN and Preferred Term) should be added under the <mark style="color:blue;">|</mark>module<mark style="color:blue;">|</mark> sub-hierarchy (within the Core Metadata) for each of the authoring organizations. The steps required to create a new reference set include:
 
 1. Create the Reference Set Concept in the Foundation Metadata hierarchy.
 2. Define the Reference Set Attributes within the metadata hierarchy.
