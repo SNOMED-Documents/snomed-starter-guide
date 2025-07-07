@@ -40,7 +40,7 @@ Materials include a benefits and information about licensing.
 **Documentation Library**\
 Access to a wide range of documents about SNOMED CT.
 
-* [http://snomed.org/doc](./#documentation)
+* [http://snomed.org/doc](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/5ePKL1wPtOcE6DS3HJBR/)
 
 **SNOMED CT Browsers**\
 A range of online and offline tools to search SNOMED CT content.
