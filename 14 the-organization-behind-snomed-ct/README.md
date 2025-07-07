@@ -1,7 +1,5 @@
 # The Organization Behind SNOMED CT
 
-## The Organization Behind SNOMED CT
-
 This section provides an overview of:
 
 * SNOMED International
