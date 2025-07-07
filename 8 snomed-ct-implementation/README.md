@@ -12,7 +12,7 @@ This section provides an overview of:
 
 ## Why is this important?
 
-Realization of the benefits described in [SNOMED CT Benefits](<../2 snomed-ct-benefits/>), depends on using the terminology in software applications. The extent of benefits realization depends on the effectiveness of implementation and the way SNOMED CT is used within the system and by users and organizations.
+Realization of the benefits described in SNOMED CT Benefits, depends on using the terminology in software applications. The extent of benefits realization depends on the effectiveness of implementation and the way SNOMED CT is used within the system and by users and organizations.
 
 ## What is this?
 
