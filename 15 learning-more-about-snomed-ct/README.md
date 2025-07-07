@@ -63,7 +63,7 @@ The Vendor Introduction to SNOMED CT provides an informative practical introduct
 
 Provides an introduction to SNOMED International and SNOMED CT for those working in or planning to development a National Release Center.
 
-* [http://snomed.org/nrcg](http://snomed.org/nrcg)
+* [http://snomed.org/nrcg](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/P1frmzZuNvoHsCrG7SKQ/)
 
 **SNOMED CT Implementation Support Portal** A dedicated portal to support SNOMED CT implementations.
 
