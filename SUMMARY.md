@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [SNOMED CT Starter Guide](README.md)
+* [Introduction](<README (1).md>)
 * [SNOMED CT Benefits](<2 snomed-ct-benefits/README.md>)
 * [Using SNOMED CT in Clinical Information](<3 using-snomed-ct-in-clinical-information/README.md>)
 * [SNOMED CT Basics](<4 snomed-ct-basics/README.md>)
@@ -15,5 +16,3 @@
 * [Release Schedule and File Formats](<13 release-schedule-and-file-formats/README.md>)
 * [The Organization Behind SNOMED CT](<14 the-organization-behind-snomed-ct/README.md>)
 * [Learning More About SNOMED CT](<15 learning-more-about-snomed-ct/README.md>)
-* [Previous Versions](previous-versions.md)
-* [Recent Updates](recent-updates.md)

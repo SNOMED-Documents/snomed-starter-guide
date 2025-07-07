@@ -1,42 +1,7 @@
-# 1. Introduction
+# SNOMED CT Starter Guide
 
-## Goals and Objectives
+The SNOMED CT Starter Guide is designed as a practical introduction for anyone interested in understanding SNOMED CT, the global standard for clinical terminology. Its goal is to provide a high-level, accessible overview that helps readers begin exploring how SNOMED CT supports effective healthcare information management.
 
-The vision for the SNOMED CT Starter Guide is for it to be a practical and useful starting point from which anyone with a general interest in healthcare information can begin learning about SNOMED CT.
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="README (1).md">README (1).md</a></td></tr><tr><td><a href="2 snomed-ct-benefits/">2 snomed-ct-benefits</a></td></tr><tr><td><a href="3 using-snomed-ct-in-clinical-information/">3 using-snomed-ct-in-clinical-information</a></td></tr><tr><td><a href="4 snomed-ct-basics/">4 snomed-ct-basics</a></td></tr><tr><td><a href="5 snomed-ct-logical-model/">5 snomed-ct-logical-model</a></td></tr><tr><td><a href="6 snomed-ct-concept-model/">6 snomed-ct-concept-model</a></td></tr><tr><td><a href="7 snomed-ct-expressions/">7 snomed-ct-expressions</a></td></tr><tr><td><a href="8 snomed-ct-implementation/">8 snomed-ct-implementation</a></td></tr><tr><td><a href="9 content-development/">9 content-development</a></td></tr><tr><td><a href="10 extension-and-customization/">10 extension-and-customization</a></td></tr><tr><td><a href="11 translations-and-language-preferences/">11 translations-and-language-preferences</a></td></tr><tr><td><a href="12 mapping/">12 mapping</a></td></tr><tr><td><a href="13 release-schedule-and-file-formats/">13 release-schedule-and-file-formats</a></td></tr><tr><td><a href="14 the-organization-behind-snomed-ct/">14 the-organization-behind-snomed-ct</a></td></tr><tr><td><a href="15 learning-more-about-snomed-ct/">15 learning-more-about-snomed-ct</a></td></tr></tbody></table>
 
-## Target Audience
-
-The target audience for this Starter Guide includes people from various disciplines who may be involved at any point in the SNOMED CT information management cycle – from initial planning, clinical content definition and implementation through to use of the resulting clinical information. This spans people involved with planning and deciding to proceed and resource a SNOMED CT implementation, people involved in reference set development, terminology management, technical implementation and all aspects of deployment and use. It also includes people involved in clinical information retrieval, analyses, decision support and other aspects of knowledge representation. The characteristics common to all members of the target audience are that they have a reason for wanting to understand SNOMED CT and are seeking a high-level initial overview of topics of which they need to be aware. The Starter Guide does not provide in depth knowledge but does provide an informative and authoritative foundation on which to build.
-
-## Topics
-
-The topics covered in this SNOMED CT Starter Guide include:
-
-  * SNOMED CT Benefits
-  * Using SNOMED CT in Clinical Information
-  * SNOMED CT Basics
-  * SNOMED CT Logical Model
-  * SNOMED CT Concept Model
-
-  * Expressions SNOMED CT Expressions
-
-  * Content Development
-  * Extension and Customization
-
-  * Translation and Language Preferences
-
-  * Mapping
-
-  * Release Schedule and File Formats
-
-  * Implementation
-  * SNOMED International
-
-  * Learning More
-
-For each topic the questions addressed include:
-
-  * Why is this important?
-  * What is this?
-
-Supporting references are included in the final chapter of the guide.
+{% include "https://app.gitbook.com/s/5ePKL1wPtOcE6DS3HJBR/~/reusable/MLPTPVV150ldNmCkOl87/" %}
