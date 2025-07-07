@@ -20,18 +20,7 @@ Watch past Expo recordings - [https://www.youtube.com/@snomedct/playlists](https
 
 ## Additional resources
 
-| **Topic**                                                             | **References** |
-| --------------------------------------------------------------------- | -------------- |
-| **Information about SNOMED International**                            |                |
-| Find out more about the organization, members, newsletter and events. |                |
-
-* [www.snomed.org](http://www.snomed.org)
-  * [https://www.snomed.org/about-us](https://www.snomed.org/about-us)
-  * [http://snomed.org/members](http://snomed.org/members)
-  * [https://www.snomed.org/news](https://www.snomed.org/news)
-  * [http://snomed.org/events](http://snomed.org/events)
-  * [https://www.snomed.org/our-partnerships](https://www.snomed.org/our-partnerships)
-  * [https://www.snomed.org/snomed-ct-marketplace](https://www.snomed.org/snomed-ct-marketplace)
+*
 
 \*\*General information about SNOMED CT\
 \*\* Materials include a benefits and information about licensing.|
