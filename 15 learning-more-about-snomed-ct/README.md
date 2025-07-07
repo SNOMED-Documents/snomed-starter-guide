@@ -73,4 +73,4 @@ Provides an introduction to SNOMED International and SNOMED CT for those working
 Sign up for SNOMED CT courses or see publicly accessible presentations.|
 
 * [http://snomed.org/elearning](http://snomed.org/elearning)
-* [Starter tutorials](https://elearning.ihtsdotools.org/course/view.php?id=5\&section=1)
+* [Starter tutorial](https://elearning.ihtsdotools.org/course/view.php?id=5\&section=1)
