@@ -1,18 +1,18 @@
-# 8. SNOMED CT Implementation
+# SNOMED CT Implementation
 
-This section provides an overview of: 
+This section provides an overview of:
 
-  * How is SNOMED CT used?
-  * Implementation Examples
-    * Clinical Record Applications
-    * Clinical Decision Support
-    * Enabling Interoperability
-    * Reporting
-  * SNOMED CT in action
+* How is SNOMED CT used?
+* Implementation Examples
+  * Clinical Record Applications
+  * Clinical Decision Support
+  * Enabling Interoperability
+  * Reporting
+* SNOMED CT in action
 
 ## Why is this important?
 
-Realization of the benefits described in Chapter 2 - SNOMED CT Benefits, depends on using the terminology in software applications. The extent of benefits realization depends on the effectiveness of implementation and the way SNOMED CT is used within the system and by users and organizations.
+Realization of the benefits described in [SNOMED CT Benefits](<../2 snomed-ct-benefits/>), depends on using the terminology in software applications. The extent of benefits realization depends on the effectiveness of implementation and the way SNOMED CT is used within the system and by users and organizations.
 
 ## What is this?
 
@@ -22,7 +22,7 @@ SNOMED CT itself is only a part of the solution to addressing the requirements f
 
 SNOMED CT is useful for clinical documentation, as it supports the representation of detailed clinical information, in a way that can be processed automatically. Realization of the capability of SNOMED CT to support clinical information and meaning based retrieval requires careful consideration of the actual setting, in terms of scope of use, record structure, data entry, data retrieval and communication.
 
-<figure><img src="../images/29952970.png" alt="" title=""></figure>
+<figure><img src="../images/29952970.png" alt=""><figcaption></figcaption></figure>
 
 ### Implementation Examples
 
@@ -32,8 +32,8 @@ SNOMED CT can be implemented in a wide range of clinical record applications. Th
 
 A terminological resource is only one part of a software application. The functions required to implement a terminology can be divided into:
 
-  * Terminology services: Functions that can be performed without reference to data stored in a particular application record structure.
-  * Record services: Functions that involve storing, retrieving or processing application data (e.g. patient health records).
+* Terminology services: Functions that can be performed without reference to data stored in a particular application record structure.
+* Record services: Functions that involve storing, retrieving or processing application data (e.g. patient health records).
 
 Different applications may make use of different aspects of SNOMED CT. Applications that only require SNOMED CT for a very limited range of uses and may not require all the features of SNOMED CT. However, by using SNOMED CT, these applications benefit from an enhanced ability to exchange data with other more terminology rich applications. These applications can also evolve to meet emergent requirements by making increasing use of the power of SNOMED CT.
 
@@ -41,11 +41,11 @@ Most users only require a small subset of the content of SNOMED CT. However, use
 
 #### Clinical Decision Support
 
-####  _How can the use of SNOMED CT assist in clinical decision support?_
+#### _How can the use of SNOMED CT assist in clinical decision support?_
 
 Clinical decision support is defined broadly as a clinical system application or process that helps health professionals make clinical decisions to enhance patient care. An example of clinical decision support would be the use of alerts to identify specific clinical contraindications in the administration of thrombocytopenia therapy after a stroke.
 
-The use of SNOMED CT makes clinical information available in a computable form which can be queried and used to trigger decision support rules and prompts. The hierarchies of SNOMED CT enable complex reasoning to support decision support rules. For example, in SNOMED CT the concept |stroke| is synonymous with |cerebrovascular accident| and subsumes all lower level concepts including |paralytic stroke|, |thrombotic stroke| etc. This means that decision support queries are easier to develop and implement because they do not need to identify all the individual terms and codes which may be relevant.
+The use of SNOMED CT makes clinical information available in a computable form which can be queried and used to trigger decision support rules and prompts. The hierarchies of SNOMED CT enable complex reasoning to support decision support rules. For example, in SNOMED CT the concept <mark style="color:blue;">|</mark>stroke<mark style="color:blue;">|</mark> is synonymous with <mark style="color:blue;">|</mark>cerebrovascular accident<mark style="color:blue;">|</mark> and subsumes all lower level concepts including <mark style="color:blue;">|</mark>paralytic stroke<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>thrombotic stroke<mark style="color:blue;">|</mark> etc. This means that decision support queries are easier to develop and implement because they do not need to identify all the individual terms and codes which may be relevant.
 
 #### _Has it been implemented?_
 
@@ -55,11 +55,11 @@ Kaiser Permanente has a central terminology service which develops and maintains
 
 #### Enabling Interoperability
 
-####  _How can you ensure that clinical information entered in one context can be safely and accurately transmitted to another system in another context?_
+#### _How can you ensure that clinical information entered in one context can be safely and accurately transmitted to another system in another context?_
 
 Information can be recorded using SNOMED CT concepts and descriptions that are independent of the clinical information system being used and either independent of or tied to the context of use, depending on the user requirements. SNOMED CT is a common clinical terminology covering a wide range of requirements and its use. SNOMED CT allows meaning-based computation to be applied to information in messages sent between systems, and provides a foundation for interoperable interpretation of clinical information.
 
-For example, subtype descendant concepts that may be relevant to prescribing decisions (e.g. |allergic disposition|, |kidney disease|) can be used to trigger alerts and reminders in the recipient system, such as medication allergy alerts and drug level investigation warnings. These preventative health care reminders, enable the quality of care to be improved.
+For example, subtype descendant concepts that may be relevant to prescribing decisions (e.g. <mark style="color:blue;">|</mark>allergic disposition<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark>kidney disease<mark style="color:blue;">|</mark>) can be used to trigger alerts and reminders in the recipient system, such as medication allergy alerts and drug level investigation warnings. These preventative health care reminders, enable the quality of care to be improved.
 
 #### _Has it been implemented?_
 
@@ -67,7 +67,7 @@ Yes. In the United States, Kaiser Permanente (KP), The Veterans Health Administr
 
 #### Reporting
 
-####  _How can clinical information encoded as SNOMED CT concepts be used for reporting purposes?_
+#### _How can clinical information encoded as SNOMED CT concepts be used for reporting purposes?_
 
 Information encoded as SNOMED CT concepts is semantically consistent. In other words, there is one unique SNOMED CT identifier representing each separate meaning. This lends itself to reporting through specifying the SNOMED CT identifiers of interest. SNOMED CT supports recording at appropriate levels of detail and using relevant terms. This also means that reports can be generated at the appropriate levels of detail using relevant terms for display in the report.
 
@@ -81,4 +81,4 @@ Yes, many clinical information systems use SNOMED CT to varying degrees and many
 
 #### Other examples of SNOMED CT in action
 
-You can see other examples of implementations using SNOMED CT in a dynamically maintained list at <https://www.snomed.org/snomed-in-action>. This site also allows you to add summaries of implementations that you are involved in.
+You can see other examples of implementations using SNOMED CT in a dynamically maintained list at [https://www.snomed.org/snomed-in-action](https://www.snomed.org/snomed-in-action). This site also allows you to add summaries of implementations that you are involved in.
