@@ -18,7 +18,7 @@ As a common global reference terminology, SNOMED CT limits the need for developm
 
 <figure><img src="../images/29952973.png" alt=""><figcaption></figcaption></figure>
 
-**Solution: Map to a SNOMED Clinical Terms**
+**Solution: Map to SNOMED Clinical Terms**
 
 <figure><img src="../images/29952975.png" alt=""><figcaption></figcaption></figure>
 
