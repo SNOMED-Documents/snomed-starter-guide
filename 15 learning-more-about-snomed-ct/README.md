@@ -2,7 +2,7 @@
 
 ## Documentation
 
-The [Starter Guide](../) is intended as a practical and useful starting point from which anyone with a general interest in healthcare information can begin learning about SNOMED CT. It provides a broad overview of SNOMED CT from which to start a more detailed exploration of areas that are of particular interest. Besides from the Starter Guide, SNOMED International provides a range of formally approved specifications and practical guidance documents. These can be accessed from the online document library: [http://snomed.org/doc](http://snomed.org/doc)
+This [Starter Guide](../) is intended as a practical and useful starting point from which anyone with a general interest in healthcare information can begin learning about SNOMED CT. It provides a broad overview of SNOMED CT from which to start a more detailed exploration of areas that are of particular interest. Besides from the Starter Guide, SNOMED International provides a range of formally approved specifications and practical guidance documents. These can be accessed from the online document library: [http://snomed.org/doc](http://snomed.org/doc).
 
 ## Courses
 
