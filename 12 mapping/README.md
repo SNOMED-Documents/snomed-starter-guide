@@ -119,3 +119,10 @@ As with any process, a post-activity review stage is recommended. This should en
 
 * Appropriate lessons are learnt and documented and thus can be referred to in any future mapping activity.
 * Issues that can be addressed within the current mapping are appropriately managed. For example, where the maps are being used for transformation then lessons learnt should be fed back into the process to improve the quality of the transformed data. The same is true in a data migration scenario where maps are reapplied subsequent to the initial migration.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=Mapping" class="button primary">Provide Feedback</a>

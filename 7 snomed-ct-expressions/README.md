@@ -150,3 +150,10 @@ _Example: Result of retrieving concepts with_ <mark style="color:blue;">|</mark>
 _Example: Result of retrieving concepts with_ <mark style="color:blue;">|</mark>_finding site_<mark style="color:blue;">|</mark> _specified as_ <mark style="color:blue;">|</mark>_kidney_<mark style="color:blue;">|</mark>
 
 <figure><img src="../images/29952967.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=SNOMED%20CT%20Expressions" class="button primary">Provide Feedback</a>

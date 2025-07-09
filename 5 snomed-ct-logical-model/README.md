@@ -101,3 +101,10 @@ Reference Sets (Refsets) are a standard way to represent additional non-defining
 * **Frequently used descriptions or concepts** that can be prioritized for searches in a particular country, organization, specialty or context.
 * **Structuring and ordering of lists and hierarchies** to display concepts in convenient structured lists or tree-view controls to assist entry of particular data items.
 * **Maps to or from other code systems** the maps supported by Reference Sets includes simple one-to-one maps and more complex maps requiring human-readable advice or machine processable rules to resolve ambiguities.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=SNOMED%20CT%20Logical%20Model" class="button primary">Provide Feedback</a>

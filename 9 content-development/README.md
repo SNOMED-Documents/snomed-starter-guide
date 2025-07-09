@@ -39,3 +39,10 @@ Continuous quality improvement is the aim of SNOMED International. Quality proce
 ### Requesting Content Additions and Changes
 
 SNOMED International provides a request submission service to gather and process requests for additions and changes to the content of the SNOMED CT International Edition. This service is directly accessible by National Release Centers (NRC) in Member countries and recognized Terminology Authorities within organizations with whom SNOMED International is actively collaborating. Organizations within Member countries can submit their requests for additions and changes to the National Release Centre. In some cases, requests with particular local relevance may be added to a National Extension. The NRC forwards requests that it considers have international relevance to SNOMED International for a decision. If a request is deemed to have high priority it should result in action in the next release cycle. However, requests that require significant changes that would impact on other content may take longer.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=9.%20Content%20Development" class="button primary">Provide Feedback</a>

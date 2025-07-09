@@ -36,3 +36,10 @@ From a practical perspective, the deliverables from SNOMED CT translation includ
   * **A Language Reference Set** – containing references to each of the descriptions and an indication of whether it is preferred or acceptable for use in the particular language or dialect.
 
 This approach allows the same descriptions to be used in other local variants of the language. In this case another Language Reference Set is provided indicating which descriptions contain the preferred and acceptable terms. Descriptions not referenced by a Language Reference Set are not used in that language or dialect.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=11.%20Translations%20and%20Language%20Preferences" class="button primary">Provide Feedback</a>

@@ -109,3 +109,10 @@ Members and organizations covered by the SNOMED CT Affiliate License have access
   * Editorial guidance for content development
 * Access to services supporting submission of requests for changes or additions to content and documentation.
 * Participation in the global SNOMED International community through an electronic collaborative space and meeting of special interest groups.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=SNOMED%20CT%20Basics" class="button primary">Provide Feedback</a>

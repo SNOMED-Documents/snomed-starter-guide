@@ -74,3 +74,10 @@ Sign up for SNOMED CT courses or see publicly accessible presentations.|
 
 * [http://snomed.org/elearning](http://snomed.org/elearning)
 * [Starter tutorial](https://elearning.ihtsdotools.org/course/view.php?id=5\&section=1)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=Learning%20More%20About%20SNOMED%20CT" class="button primary">Provide Feedback</a>

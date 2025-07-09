@@ -82,3 +82,10 @@ Yes, many clinical information systems use SNOMED CT to varying degrees and many
 #### Other examples of SNOMED CT in action
 
 You can see other examples of implementations using SNOMED CT in a dynamically maintained list at [https://www.snomed.org/snomed-in-action](https://www.snomed.org/snomed-in-action). This site also allows you to add summaries of implementations that you are involved in.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=SNOMED%20CT%20Implementation" class="button primary">Provide Feedback</a>

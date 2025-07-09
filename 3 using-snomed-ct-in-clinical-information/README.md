@@ -67,3 +67,10 @@ Human factors may result in inconsistent recording of similar clinical informati
 An important limitation is the diversity of views related to the structure of clinical information and the overlap between information models and terminology. There are also differing views on application design, different requirements for collection of clinical information and different views on record structures and data entry methods appropriate to different use cases.
 
 SNOMED International is working with other standards bodies including the International Organization for Standardisation (ISO) and Health Level 7 (HL7), as well as various collaborative efforts exploring the relationship between terminology and structured clinical information. The objective is to ensure that the role of SNOMED CT as a key component of clinical information and systems is understood as part of overall efforts towards harmonization and interoperability.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=Using%20SNOMED%20CT%20in%20Clinical%20Information" class="button primary">Provide Feedback</a>

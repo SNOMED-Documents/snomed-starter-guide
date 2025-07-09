@@ -64,3 +64,10 @@ In Snapshot Release files
 * Each relationship, from a source concept to a destination concept, is held as a single row in the relationship file. Each row also refers to the concept that represents the relationship type.
 
 In Full Release files, concepts, descriptions and relationships may be represented by more than one row. In this case each row represents the state of the component at a stated point in time.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=Release%20Schedule%20and%20File%20Formats" class="button primary">Provide Feedback</a>
