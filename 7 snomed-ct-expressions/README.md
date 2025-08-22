@@ -4,7 +4,6 @@ This section provides an overview of:
 
 * Precoordinated Expressions
 * Postcoordinated Expressions
-* Secret expressions
 
 ## Why is this important?
 
