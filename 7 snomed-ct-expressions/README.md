@@ -4,6 +4,7 @@ This section provides an overview of:
 
 * Precoordinated Expressions
 * Postcoordinated Expressions
+* Secret expressions
 
 ## Why is this important?
 
@@ -59,7 +60,7 @@ The fact that the two expressions have the same meaning can be computed because
 
 The example above shows that postcoordination can be applied even when a single concept is available to represent the required meaning. However, the real strength of postcoordination is that it allows a clinical phrase to be represented even when the precise concept is not present in SNOMED CT. In these cases, postcoordinated refinements can be applied to an existing concept to more precisely capture the required meaning.
 
-**Example: Postcoordinated representation of "Intolerance to histamine"**&#x20;
+**Example: Postcoordinated representation of "Intolerance to histamine"**
 
 SNOMED CT does not contain a concept that represents this clinical idea. However, it is possible to represent it using the following postcoordinated expression. 782197009 <mark style="color:blue;">|</mark>intolerance to substance<mark style="color:blue;">|</mark> : 47429007 <mark style="color:blue;">|</mark>associated with<mark style="color:blue;">|</mark> = 54235008 <mark style="color:blue;">|</mark>histamine<mark style="color:blue;">|</mark>.
 
@@ -151,9 +152,4 @@ _Example: Result of retrieving concepts with_ <mark style="color:blue;">|</mark>
 
 <figure><img src="../images/29952967.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=SNOMED%20CT%20Expressions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Starter+Guide&#x26;entry.670899847=SNOMED%20CT%20Expressions" class="button primary">Provide Feedback</a>
