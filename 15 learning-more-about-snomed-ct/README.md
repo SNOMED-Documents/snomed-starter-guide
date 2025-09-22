@@ -30,6 +30,8 @@ Find out more about the organization, members, newsletter and events.
   * [http://snomed.org/events](http://snomed.org/events)
   * [https://www.snomed.org/our-partnerships](https://www.snomed.org/our-partnerships)
   * [https://www.snomed.org/snomed-ct-marketplace](https://www.snomed.org/snomed-ct-marketplace)
+* [SNOMED Forums](https://forums.snomed.org/) is used for announcements, colloboration and discussion. It is used for connecting the SNOMED CT Community through open discussion and knowledge sharing.
+* [SNOMED Spaces](https://conf.spaces.snomed.org/wiki/spaces) is a space where the people within SNOMED International Governance and Advisory Bodies can view information. The space also enables viewing information about Advisory Groups, Clinical Reference Groups and Project Groups.
 
 **General information about SNOMED CT**\
 Materials include a benefits and information about licensing.
@@ -53,7 +55,7 @@ Examples of how SNOMED CT is being used around the world.
 
 * [https://www.snomed.org/snomed-ct/snomed-in-action](https://www.snomed.org/snomed-ct/snomed-in-action)
 
-**SNOMED CT Vendor Guide**&#x20;
+**SNOMED CT Vendor Guide**
 
 The Vendor Introduction to SNOMED CT provides an informative practical introduction to SNOMED CT focused primarily on the needs of vendors and developers of EHRs.
 
@@ -75,9 +77,4 @@ Sign up for SNOMED CT courses or see publicly accessible presentations.|
 * [http://snomed.org/elearning](http://snomed.org/elearning)
 * [Starter tutorial](https://elearning.ihtsdotools.org/course/view.php?id=5\&section=1)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=Learning%20More%20About%20SNOMED%20CT" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Starter+Guide&#x26;entry.670899847=Learning%20More%20About%20SNOMED%20CT" class="button primary">Provide Feedback</a>
