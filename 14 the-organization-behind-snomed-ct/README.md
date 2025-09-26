@@ -106,11 +106,6 @@ Confluence is an online forum/space where the people within SNOMED International
 
 Members, Affiliates, or other interested parties can gain access to the Collaborative Space to learn more about SNOMED International and SNOMED CT. The Confluence space also enables participation in Advisory Groups, Clinical Reference Groups and Project Groups.
 
-Information about Confluence is available at [https://confluence.ihtsdotools.org](https://confluence.ihtsdotools.org/).
+Information about Confluence is available at [https://spaces.snomed.org](https://spaces.snomed.org/).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=The%20Organization%20Behind%20SNOMED%20CT" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Starter+Guide&#x26;entry.670899847=The%20Organization%20Behind%20SNOMED%20CT" class="button primary">Provide Feedback</a>
