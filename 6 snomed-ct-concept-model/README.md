@@ -152,11 +152,6 @@ Below is a list of some of the attributes used to define |procedure| concepts, a
 
 #### All Attributes Values Used to Define SNOMED CT Concepts
 
-For attribute values or range, please consult the Editorial Guide (refer to section on [Domain Specific Modeling](https://confluence.ihtsdotools.org/display/DOCEG/Domain+Specific+Modeling), then the appropriate Attributes Summary) or the [MRCM Browser](https://browser.ihtsdotools.org/mrcm).
+For attribute values or range, please consult the Editorial Guide (refer to section on [Domain Specific Modeling](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling), then the appropriate Attributes Summary) or the [MRCM Browser](https://browser.ihtsdotools.org/mrcm).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Starter+Guide&entry.670899847=SNOMED%20CT%20Concept%20Model" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Starter+Guide&#x26;entry.670899847=SNOMED%20CT%20Concept%20Model" class="button primary">Provide Feedback</a>
